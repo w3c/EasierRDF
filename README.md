@@ -1,8 +1,17 @@
 # EasierRDF
 
-_This repository has been created for gathering ideas for making RDF easier to use for the majority of developers. We're seeking to collect and review ideas for discussion at the [W3C Graph Data Workshop](https://www.w3.org/Data/events/data-ws-2019/cfp.html) in March 2019 and to prepare the path for launching new standards work at W3C._
+_This repository is for work on making RDF easier to use.  By "RDF" we mean the whole RDF ecosystem -- including SPARQL, OWL, tools, standards, educational materials, etc. -- everything that a developer touches when using RDF.  Approach:_
+ - _Focus and coordinate community efforts._
+ - _Collect and review ideas for discussion at the [W3C Graph Data Workshop](https://www.w3.org/Data/events/data-ws-2019/cfp.html) in March 2019, and prepare the path for launching new standards work at W3C._
+ - _Launch additional W3C Community Groups to tackle specific areas of need.  For example, see the [n3-dev Community Group](https://www.w3.org/community/n3-dev/), which seeks to standardize N3 rules._
 
 ## Introduction
+
+The value of RDF has been well proven, in many applications, over the 20+ years since it was first created.  At the same time, a painful reality has emerged: RDF is too hard for
+*average* developers.  By "average developers" I mean those
+in the middle 33 percent of ability. And by "RDF", I mean the
+whole RDF ecosystem -- including SPARQL, OWL, tools, standards,
+etc. -- everything that a developer touches when using RDF.
 
 Businesses have used relational databases for many years, but it is costly to adapt database schema and applications in response to evolving application needs. We've seen the emergence of NoSQL databases, e.g. CouchDB for keyed access to JSON. There is a need for fine grained links between data, and this is driving rapid growth of interest in graph data.
 
@@ -12,7 +21,7 @@ It is now timely to build upon two decades of experience with RDF to examine how
 
 ## Guiding principles
 
-1. The goal is to make RDF -- or some RDF-based successor -- easy enough for *average* developers (middle 33%), who are new to RDF, to be consistently successful.
+1. The goal is to make RDF -- or some RDF-based successor -- easy enough for *average* developers (middle 33% of ability), who are new to RDF, to be consistently successful.
 
 2. Solutions may involve anything in the RDF ecosystem: standards, tools, guidance, etc.  All options are on the table.
 
