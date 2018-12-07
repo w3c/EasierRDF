@@ -4,11 +4,10 @@ _This repository is for work on making RDF easier to use, with the goal of makin
  - _Focus and coordinate community efforts._
  - _Collect and review ideas for discussion at the [W3C Graph Data Workshop](https://www.w3.org/Data/events/data-ws-2019/cfp.html) in March 2019, and prepare the path for launching new standards work at W3C._
  - _Launch additional W3C Community Groups to tackle specific areas of need.  For example, see the [n3-dev Community Group](https://www.w3.org/community/n3-dev/), which seeks to standardize N3 rules._
-For more background, see the [email thread](https://lists.w3.org/Archives/Public/semantic-web/2018Nov/0036.html) that led to this effort.
 
 ## Introduction
 
-The value of RDF has been well proven, in many applications, over the 20+ years since it was first created.  However, difficulty of use has caused RDF to be categorized as a niche technology. This is unfortunate because it limits uptake and prevents RDF from being a viable choice for many use cases that would otherwise be an excellent fit.  We've also seen the emergence of NoSQL databases, and a growing interest in graph databases.  It is now timely to build upon two decades of experience with RDF to examine how we can make RDF easier to use.  What aspects or gaps have caused difficulty?  How can we make RDF -- or a successor -- easy enough for *average* developers?
+The value of RDF has been well proven, in many applications, over the 20+ years since it was first created.  However, difficulty of use has caused RDF to be categorized as a niche technology. This is unfortunate because it limits uptake and prevents RDF from being a viable choice for many use cases that would otherwise be an excellent fit.  At that same time we have seen the emergence of NoSQL databases, and a growing interest in graph databases.  It is now timely to build upon our experience with RDF to examine how we can make it easier to use.  What aspects or gaps have caused difficulty?  How can we make RDF -- or a successor -- easy enough for *average* developers?  For more background, see the [email thread](https://lists.w3.org/Archives/Public/semantic-web/2018Nov/0036.html) that led to this effort.
 
 ## Guiding principles
 
