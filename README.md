@@ -34,6 +34,7 @@ This provides a convient way to group the large number of GitHub issues we're di
 * Higher-level RDF languages
 * RDF Templates
 * Accessible and scalable developer tools
+* Machine learning of models from examples and counter examples
 
 ## RDF Tools
 
