@@ -25,20 +25,31 @@ This work seeks to build upon our experience with RDF to examine how we can make
 
 We welcome contributions. A good place to start is to review the collection of issues, see below. Please feel free to start a new issue if none of the existing ones are a good match. We also welcome longer position papers and analyses, preferably in the GitHub markdown format.  You can also send comments to the mailing list: [semantic-web@w3.org](https://lists.w3.org/Archives/Public/semantic-web/).
 
+## Intellectual property rights
+
+This work is being performed under the [W3C rdf-dev Community Group](https://www.w3.org/community/rdf-dev/) and is subject to the [W3C Community Contributor License Agreement (CLA)](https://www.w3.org/community/about/agreements/cla/).
+
 # Topics
 
-This provides a convient way to group the large number of GitHub issues we're discussing. Note that these provide a means for describing use cases, challenges and proposed solutions.
+Issues and ideas are recorded in our [issues list](https://github.com/w3c/EasierRDF/issues) and divided into the following categories using [issue labels](https://github.com/w3c/EasierRDF/labels):
+* **Big ideas:** for major ideas that span multiple issue categories
+* **Tools:** for issues around tooling
+* **Education:** for documentation and education issuess and ideas
+* **Usage:** for issues around RDF usage in practice
+* **Language features:** for language features of RDF itself -- model and syntax
+* **Related standards:**  for RDF-related standards issues
 
-## Some Big Ideas
 
-* Attracting JavaScript front-end developers
-* Basing Linked Data on a JavaScript API
-* Build JavaScript libraries that work in the browser
-* Build powerful query engines
-* Higher-level RDF languages
-* RDF Templates
-* Accessible and scalable developer tools
-* Machine learning of models from examples and counter examples
+## Big Ideas
+Category for ideas that broadly span multiple issue categories
+
+<!-- BEGIN_DO_NOT_EDIT! Category: big ideas -->
+* [Issue 34: Idea: Higher-level RDF language](https://github.com/w3c/EasierRDF/issues/34)
+* [Issue 33: Idea: Build powerful query engines](https://github.com/w3c/EasierRDF/issues/33)
+* [Issue 32: Idea: Build JavaScript libraries that work in the browser](https://github.com/w3c/EasierRDF/issues/32)
+* [Issue 31: Idea: Base Linked Data on a JavaScript API](https://github.com/w3c/EasierRDF/issues/31)
+* [Issue 30: Idea: Attract JavaScript front-end developers](https://github.com/w3c/EasierRDF/issues/30)
+<!-- END_DO_NOT_EDIT! Category: big ideas -->
 
 ## RDF Tools
 
