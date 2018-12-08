@@ -42,7 +42,6 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## Big Ideas
 Category for ideas that broadly span multiple issue categories
-
 <!-- BEGIN_DO_NOT_EDIT! Category: big ideas -->
 * [Issue 34: Idea: Higher-level RDF language](https://github.com/w3c/EasierRDF/issues/34)
 * [Issue 33: Idea: Build powerful query engines](https://github.com/w3c/EasierRDF/issues/33)
@@ -51,125 +50,58 @@ Category for ideas that broadly span multiple issue categories
 * [Issue 30: Idea: Attract JavaScript front-end developers](https://github.com/w3c/EasierRDF/issues/30)
 <!-- END_DO_NOT_EDIT! Category: big ideas -->
 
-## RDF Tools
+## Tools
+Category for RDF tools
+<!-- BEGIN_DO_NOT_EDIT! Category: tools -->
+* [Issue 5: Moribundity of Tools](https://github.com/w3c/EasierRDF/issues/5)
+* [Issue 4: Overview of an RDF triple store](https://github.com/w3c/EasierRDF/issues/4)
+* [Issue 3: Lack of automated feedback / validation](https://github.com/w3c/EasierRDF/issues/3)
+* [Issue 2: Tools are scattered](https://github.com/w3c/EasierRDF/issues/2)
+<!-- END_DO_NOT_EDIT! Category: tools -->
 
-* Tools are scattered
-* LAMP for RDF: establishing a standard bundle available for all common operating systems
-* Semantic Web client in a box
-* Lack of automated feedback/validation
-* Overview of an RDF triple store
-* Obvious moribundity of tools
+## Education
+Category for documentation and education
+<!-- BEGIN_DO_NOT_EDIT! Category: education -->
+* [Issue 11: Rejection of SQL and OO as Metaphors](https://github.com/w3c/EasierRDF/issues/11)
+* [Issue 10: Lack of a Canonical Example](https://github.com/w3c/EasierRDF/issues/10)
+* [Issue 9: Lack of Technology Framing](https://github.com/w3c/EasierRDF/issues/9)
+* [Issue 8: Beginner friendly support](https://github.com/w3c/EasierRDF/issues/8)
+* [Issue 7: Beginner friendly tutorials / documentation](https://github.com/w3c/EasierRDF/issues/7)
+* [Issue 6: No clear entry point](https://github.com/w3c/EasierRDF/issues/6)
+<!-- END_DO_NOT_EDIT! Category: education -->
 
-## Documentation and Education
+## Usage
+Category for issues around RDF usage in practice
+<!-- BEGIN_DO_NOT_EDIT! Category: usage -->
+* [Issue 16: Easier-to-use competitors](https://github.com/w3c/EasierRDF/issues/16)
+* [Issue 15: Define an easier profile of RDF](https://github.com/w3c/EasierRDF/issues/15)
+* [Issue 14: Namespaces are lost in the RDF model](https://github.com/w3c/EasierRDF/issues/14)
+* [Issue 13: Namespace proliferation](https://github.com/w3c/EasierRDF/issues/13)
+* [Issue 12: IRI allocation](https://github.com/w3c/EasierRDF/issues/12)
+<!-- END_DO_NOT_EDIT! Category: usage -->
 
-* No clear entry point
-* Canonical documentation
-* Beginner friendly tutorials/documentation
-* Building things
-* An integrated primer that spans specifications and tools
-* Beginner friendly support
-* Lack of technology framing
-* Lack of a canonical example
-* Rejection of SQL and Object-Orientation as metaphors
+## Language features
+Category for language features of RDF itself -- model and syntax
+<!-- BEGIN_DO_NOT_EDIT! Category: language features -->
+* [Issue 25: Vocabulary for new semantic extensions](https://github.com/w3c/EasierRDF/issues/25)
+* [Issue 24: Decouple semantics from data model](https://github.com/w3c/EasierRDF/issues/24)
+* [Issue 23: Working with named graphs gets complicated fast](https://github.com/w3c/EasierRDF/issues/23)
+* [Issue 22: Language-tagged strings](https://github.com/w3c/EasierRDF/issues/22)
+* [Issue 21: Literals as subjects](https://github.com/w3c/EasierRDF/issues/21)
+* [Issue 20: Standardized n-ary relations (and property graphs)](https://github.com/w3c/EasierRDF/issues/20)
+* [Issue 19: Blank nodes](https://github.com/w3c/EasierRDF/issues/19)
+* [Issue 18: SPARQL-friendly lists](https://github.com/w3c/EasierRDF/issues/18)
+* [Issue 17: IRI reuse and synonyms](https://github.com/w3c/EasierRDF/issues/17)
+<!-- END_DO_NOT_EDIT! Category: language features -->
 
-## RDF Usage
+## Related standards
+Category for RDF-related standards
+<!-- BEGIN_DO_NOT_EDIT! Category: related standards -->
+* [Issue 29: No standard way to map a JSON predicate to a URI](https://github.com/w3c/EasierRDF/issues/29)
+* [Issue 28: Named solution sets in SPARQL](https://github.com/w3c/EasierRDF/issues/28)
+* [Issue 27: Lack of a standard rules language](https://github.com/w3c/EasierRDF/issues/27)
+* [Issue 26: Lack of standard RDF canonicalization](https://github.com/w3c/EasierRDF/issues/26)
+<!-- END_DO_NOT_EDIT! Category: related standards -->
 
-* IRI allocation - need for clear guidance
-* Namespace proliferation
-* Define an easier profile of RDF
 
-## RDF Language features
-
-* Making it easier to express property graphs
-* IRI reuse and synonyms
-* SPARQL friendly lists
-* Blank nodes
-* Allow expressions as first class entities
-* Separate existential quantifier (blank node) logic from RDF
-* Add explicit scope mechanism for blank nodes
-* Define equality and hash functions on types
-* Standardized n-ary relations (and property graphs)
-* Nested triples
-* Auto-generate a predictable IRI from the object's primary key
-* Extend RDF from binary to n-ary
-* Literals as subjects
-* Graphs as subjects and objects
-* Allow literals and blank nodes as predicates too
-* Allow blank nodes and literals as graph names
-* Language-tagged strings
-* Eliminate the special status of language-tagged strings
-* Use W3C OntoLex/Lemony as a basis for language tagging
-* Use URIs to identify language
-* Working with named graphs gets complicated fast
-* Nesting and composition of named graphs
-* Decouple semantics from data model
-* Vocabulary for new semantic extensions
-
-## RDF Related standards
-
-* Lack of standard RDF canonicalization
-* JSON-LD canonicalization
-* RDF canonicalization
-* Lack of a standard rules language
-* Embed RDF in a programming language
-* Standardize N3 Logic
-* Bind custom inference rules to functions
-* Update RIF
-* SPARQL-Generate extensions
-* Named solution sets in SPARQL
-* No standard way to map a JSON predicate to a URI
-
-## Original References
-
-To simplify editing, please DO NOT add more references to this list.  These are references from the message that started the discussion about making RDF easier to use:
-https://lists.w3.org/Archives/Public/semantic-web/2018Nov/0036.html 
-
-Please add any new references (links) inline with the topics above.  This will make it easier to move text around as we are organizing these topics.
-
-1. "Toward Easier RDF", David Booth, slides from 2018 US
-Semantic Technology Symposium:
-https://goo.gl/H2vBYi
-2. US Semantic Technology Symposium (US2TS):
-http://www.us2ts.org/
-3. "What happened to the Semantic
-Web?" (general comments), Sean Palmer:
-https://lists.w3.org/Archives/Public/semantic-web/2017Oct/0024.html
-4. "Semantic Web Interest Group now closed",
-"RDF(-DEV), back to the future", Dan Brickley:
-https://lists.w3.org/Archives/Public/semantic-web/2018Oct/0086.html
-https://lists.w3.org/Archives/Public/semantic-web/2018Oct/0052.html
-5. "A More Decentralized Vision for Linked Data", Axel Polleres,
-Maulik R. Kamdar, Javier D. Fernandez, Tania Tudorache, and
-Mark A. Musen: https://openreview.net/pdf?id=H1lS_g81gX
-6. "Signing RDF Graphs", Jeremy Carroll
-http://www.hpl.hp.com/techreports/2003/HPL-2003-142.pdf
-7. "Is it possible to get the position of an element
-in an RDF Collection in SPARQL?", see Joshua
-Taylor's answer, "A Pure SPARQL 1.1 Solution":
-https://stackoverflow.com/questions/17523804/is-it-possible-to-get-the-position-of-an-element-in-an-rdf-collection-in-sparql
-8. "An Ordered RDF List", David Wood and James Leigh:
-https://www.w3.org/2009/12/rdf-ws/papers/ws14
-9. "Defining N-ary Relations on the Semantic Web", W3C Working Group:
-https://www.w3.org/TR/swbp-n-aryRelations/
-10. Property Graph, Wikipedia:
-https://en.wikipedia.org/wiki/Graph_database#Labeled-Property_Graph
-11. DB-Engines Ranking of Graph DBMS:
-https://db-engines.com/en/ranking/graph+dbms
-12. "Standards for storing RDF/OWL in a property graph?", Olaf Hartig:
-https://lists.w3.org/Archives/Public/semantic-web/2018Apr/0030.html
-13. "SPARQL 1.1 Query Language: CONSTRUCT":
-https://www.w3.org/TR/sparql11-query/#construct
-
-1. "What happened to the Semantic
-Web?" (SPARQL comments), Sean Palmer:
-https://lists.w3.org/Archives/Public/semantic-web/2017Oct/0045.htmlhttps://lists.w3.org/Archives/Public/semantic-web/2017Oct/0059.html
-2. "Debunking some 'RDF vs. Property Graph' Alternative Facts",
-Jesus Barras, slides 34 and 35:
-https://www.slideshare.net/neo4j/graphconnect-europe-2017-debunking-some-rdf-vs-property-graph-alternative-facts-neo4j
-3.  "Universal Resource Identifiers: The Opacity Axiom", Tim
-Berners-Lee:
-https://www.w3.org/DesignIssues/Axioms.html#opaque
-4. "Notation3 (N3): A readable RDF syntax", W3C Team Submission,
-Tim Berners-Lee and Dan Connolly:
-https://www.w3.org/TeamSubmission/n3/
 
