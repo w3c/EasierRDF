@@ -41,7 +41,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 
 ## Big Ideas
-Category for ideas that broadly span multiple issue categories
+Category for major ideas that span multiple issue categories
 <!-- BEGIN_DO_NOT_EDIT! Category: big ideas -->
 * [Issue 34: Idea: Higher-level RDF language](https://github.com/w3c/EasierRDF/issues/34)
 * [Issue 33: Idea: Build powerful query engines](https://github.com/w3c/EasierRDF/issues/33)
