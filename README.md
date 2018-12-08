@@ -39,9 +39,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 * **Language features:** for language features of RDF itself -- model and syntax
 * **Related standards:**  for RDF-related standards issues
 
-
-## Big Ideas
-Category for major ideas that span multiple issue categories
+## Big Ideas: Category for major ideas that span multiple issue categories
 <!-- BEGIN_DO_NOT_EDIT! Category: big ideas -->
 * [Issue 34: Idea: Higher-level RDF language](https://github.com/w3c/EasierRDF/issues/34)
 * [Issue 33: Idea: Build powerful query engines](https://github.com/w3c/EasierRDF/issues/33)
@@ -50,8 +48,7 @@ Category for major ideas that span multiple issue categories
 * [Issue 30: Idea: Attract JavaScript front-end developers](https://github.com/w3c/EasierRDF/issues/30)
 <!-- END_DO_NOT_EDIT! Category: big ideas -->
 
-## Tools
-Category for RDF tools
+## Tools: Category for RDF tools
 <!-- BEGIN_DO_NOT_EDIT! Category: tools -->
 * [Issue 5: Moribundity of Tools](https://github.com/w3c/EasierRDF/issues/5)
 * [Issue 4: Overview of an RDF triple store](https://github.com/w3c/EasierRDF/issues/4)
@@ -59,8 +56,7 @@ Category for RDF tools
 * [Issue 2: Tools are scattered](https://github.com/w3c/EasierRDF/issues/2)
 <!-- END_DO_NOT_EDIT! Category: tools -->
 
-## Education
-Category for documentation and education
+## Education: Category for documentation and education
 <!-- BEGIN_DO_NOT_EDIT! Category: education -->
 * [Issue 11: Rejection of SQL and OO as Metaphors](https://github.com/w3c/EasierRDF/issues/11)
 * [Issue 10: Lack of a Canonical Example](https://github.com/w3c/EasierRDF/issues/10)
@@ -70,8 +66,7 @@ Category for documentation and education
 * [Issue 6: No clear entry point](https://github.com/w3c/EasierRDF/issues/6)
 <!-- END_DO_NOT_EDIT! Category: education -->
 
-## Usage
-Category for issues around RDF usage in practice
+## Usage: Category for issues around RDF usage in practice
 <!-- BEGIN_DO_NOT_EDIT! Category: usage -->
 * [Issue 16: Easier-to-use competitors](https://github.com/w3c/EasierRDF/issues/16)
 * [Issue 15: Define an easier profile of RDF](https://github.com/w3c/EasierRDF/issues/15)
@@ -80,8 +75,7 @@ Category for issues around RDF usage in practice
 * [Issue 12: IRI allocation](https://github.com/w3c/EasierRDF/issues/12)
 <!-- END_DO_NOT_EDIT! Category: usage -->
 
-## Language features
-Category for language features of RDF itself -- model and syntax
+## Language features: Category for language features of RDF itself -- model and syntax
 <!-- BEGIN_DO_NOT_EDIT! Category: language features -->
 * [Issue 25: Vocabulary for new semantic extensions](https://github.com/w3c/EasierRDF/issues/25)
 * [Issue 24: Decouple semantics from data model](https://github.com/w3c/EasierRDF/issues/24)
@@ -94,8 +88,7 @@ Category for language features of RDF itself -- model and syntax
 * [Issue 17: IRI reuse and synonyms](https://github.com/w3c/EasierRDF/issues/17)
 <!-- END_DO_NOT_EDIT! Category: language features -->
 
-## Related standards
-Category for RDF-related standards
+## Related standards: Category for RDF-related standards
 <!-- BEGIN_DO_NOT_EDIT! Category: related standards -->
 * [Issue 29: No standard way to map a JSON predicate to a URI](https://github.com/w3c/EasierRDF/issues/29)
 * [Issue 28: Named solution sets in SPARQL](https://github.com/w3c/EasierRDF/issues/28)
@@ -103,5 +96,6 @@ Category for RDF-related standards
 * [Issue 26: Lack of standard RDF canonicalization](https://github.com/w3c/EasierRDF/issues/26)
 <!-- END_DO_NOT_EDIT! Category: related standards -->
 
+@@TODO:@@ Add an auto-generated list of uncategorized issues.
 
 
