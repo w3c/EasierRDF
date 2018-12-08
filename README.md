@@ -15,11 +15,11 @@ This work seeks to build upon our experience with RDF to examine how we can make
 
 ## Guiding principles
 
-1. The goal is to make RDF -- or some RDF-based successor -- easy enough for *average* developers (middle 33%), who are new to RDF, to be consistently successful.
+**1. The goal is to make RDF -- or some RDF-based successor -- easy enough for *average* developers (middle 33%), who are new to RDF, to be consistently successful.**
 
-2. Solutions may involve anything in the RDF ecosystem: standards, tools, guidance, etc.  All options are on the table.
+**2. Solutions may involve anything in the RDF ecosystem: standards, tools, guidance, etc.  All options are on the table.**
 
-3. Backward compatibility is highly desirable, but **less** important than ease of use.
+**3. Backward compatibility is highly desirable, but *less* important than ease of use.**
 
 ## How to contribute?
 
