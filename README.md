@@ -1,6 +1,6 @@
 # EasierRDF
 
-_This repository is for work on making RDF easier to use, with the goal of making it easy enough for *average* developers (middle 33% of ability).  By "RDF" we mean the whole RDF ecosystem -- including SPARQL, OWL, tools, standards, educational materials, etc. -- everything that a developer touches when using RDF.  Our plan:_
+_This repository is for experimental/exploratory work on making RDF easier to use, with the goal of making it easy enough for *average* developers (middle 33% of ability).  By "RDF" we mean the whole RDF ecosystem -- including SPARQL, OWL, tools, standards, educational materials, etc. -- everything that a developer touches when using RDF.  Our plan:_
  - _focus and coordinate community efforts;_
  - _collect and review ideas for discussion at the [W3C Graph Data Workshop](https://www.w3.org/Data/events/data-ws-2019/cfp.html) in March 2019, and prepare the path for launching new standards work at W3C; and_
  - _launch additional W3C Community Groups to tackle specific areas of need.  For example, see the [n3-dev Community Group](https://www.w3.org/community/n3-dev/), which seeks to standardize N3 rules._
