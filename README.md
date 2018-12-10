@@ -34,7 +34,7 @@ This work is being performed under the [W3C rdf-dev Community Group](https://www
 
 Issues and ideas are recorded in our [issues list](https://github.com/w3c/EasierRDF/issues) and divided into the categories below using [issue labels](https://github.com/w3c/EasierRDF/labels).
 
-## [Big Ideas](https://github.com/w3c/EasierRDF/labels/big%20ideas): Category for major ideas that span multiple issue categories
+## [Category: big ideas](https://github.com/w3c/EasierRDF/labels/Category%3A%20big%20ideas): For major ideas that span multiple issue categories
 <!-- BEGIN_DO_NOT_EDIT! Category: big ideas -->
 * [Issue 34: Idea: Higher-level RDF language](https://github.com/w3c/EasierRDF/issues/34)
 * [Issue 33: Idea: Build powerful query engines](https://github.com/w3c/EasierRDF/issues/33)
@@ -43,7 +43,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 * [Issue 30: Idea: Attract JavaScript front-end developers](https://github.com/w3c/EasierRDF/issues/30)
 <!-- END_DO_NOT_EDIT! Category: big ideas -->
 
-## [Tools](https://github.com/w3c/EasierRDF/labels/tools): Category for RDF tools
+## [Category: tools](https://github.com/w3c/EasierRDF/labels/Category%3A%20tools): For RDF tools
 <!-- BEGIN_DO_NOT_EDIT! Category: tools -->
 * [Issue 5: Moribundity of Tools](https://github.com/w3c/EasierRDF/issues/5)
 * [Issue 4: Overview of an RDF triple store](https://github.com/w3c/EasierRDF/issues/4)
@@ -51,7 +51,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 * [Issue 2: Tools are scattered](https://github.com/w3c/EasierRDF/issues/2)
 <!-- END_DO_NOT_EDIT! Category: tools -->
 
-## [Education](https://github.com/w3c/EasierRDF/labels/education): Category for documentation and education
+## [Category: education](https://github.com/w3c/EasierRDF/labels/Category%3A%20education): For documentation and education
 <!-- BEGIN_DO_NOT_EDIT! Category: education -->
 * [Issue 11: Rejection of SQL and OO as Metaphors](https://github.com/w3c/EasierRDF/issues/11)
 * [Issue 10: Lack of a Canonical Example](https://github.com/w3c/EasierRDF/issues/10)
@@ -61,7 +61,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 * [Issue 6: No clear entry point](https://github.com/w3c/EasierRDF/issues/6)
 <!-- END_DO_NOT_EDIT! Category: education -->
 
-## [Usage](https://github.com/w3c/EasierRDF/labels/usage): Category for issues around RDF usage in practice
+## [Category: usage](https://github.com/w3c/EasierRDF/labels/Category%3A%20usage): For issues around RDF usage in practice
 <!-- BEGIN_DO_NOT_EDIT! Category: usage -->
 * [Issue 16: Easier-to-use competitors](https://github.com/w3c/EasierRDF/issues/16)
 * [Issue 15: Define an easier profile of RDF](https://github.com/w3c/EasierRDF/issues/15)
@@ -70,7 +70,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 * [Issue 12: IRI allocation](https://github.com/w3c/EasierRDF/issues/12)
 <!-- END_DO_NOT_EDIT! Category: usage -->
 
-## [Language features](https://github.com/w3c/EasierRDF/labels/language%20features): Category for language features of RDF itself -- model and syntax
+## [Category: language features](https://github.com/w3c/EasierRDF/labels/Category%3A%20language%20features): For language features of RDF itself -- model and syntax
 <!-- BEGIN_DO_NOT_EDIT! Category: language features -->
 * [Issue 25: Vocabulary for new semantic extensions](https://github.com/w3c/EasierRDF/issues/25)
 * [Issue 24: Decouple semantics from data model](https://github.com/w3c/EasierRDF/issues/24)
@@ -83,7 +83,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 * [Issue 17: IRI reuse and synonyms](https://github.com/w3c/EasierRDF/issues/17)
 <!-- END_DO_NOT_EDIT! Category: language features -->
 
-## [Related standards](https://github.com/w3c/EasierRDF/labels/related%20standards): Category for RDF-related standards
+## [Category: related standards](https://github.com/w3c/EasierRDF/labels/Category%3A%20related%20standards): For RDF-related standards
 <!-- BEGIN_DO_NOT_EDIT! Category: related standards -->
 * [Issue 29: No standard way to map a JSON predicate to a URI](https://github.com/w3c/EasierRDF/issues/29)
 * [Issue 28: Named solution sets in SPARQL](https://github.com/w3c/EasierRDF/issues/28)
