@@ -4,7 +4,7 @@ _This repository is for experimental/exploratory work on making RDF easier to us
 * _focus and coordinate community efforts;_
 * _collect and review ideas for discussion at the [W3C Graph Data Workshop](https://www.w3.org/Data/events/data-ws-2019/cfp.html) in March 2019, and prepare the path for launching new standards work at W3C; and_
 * _launch additional W3C Community Groups to tackle specific areas of need, including:
-** _[n3-dev Community Group](https://www.w3.org/community/n3-dev/), for standardizing N3 rules._
+ * _[n3-dev Community Group](https://www.w3.org/community/n3-dev/), for standardizing N3 rules._
 
 ## Introduction
 
