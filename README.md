@@ -32,13 +32,7 @@ This work is being performed under the [W3C rdf-dev Community Group](https://www
 
 # Topics
 
-Issues and ideas are recorded in our [issues list](https://github.com/w3c/EasierRDF/issues) and divided into the following categories using [issue labels](https://github.com/w3c/EasierRDF/labels):
-* **Big ideas:** for major ideas that span multiple issue categories
-* **Tools:** for issues around tooling
-* **Education:** for documentation and education issuess and ideas
-* **Usage:** for issues around RDF usage in practice
-* **Language features:** for language features of RDF itself -- model and syntax
-* **Related standards:**  for RDF-related standards issues
+Issues and ideas are recorded in our [issues list](https://github.com/w3c/EasierRDF/issues) and divided into the categories below using [issue labels](https://github.com/w3c/EasierRDF/labels).
 
 ## Big Ideas: Category for major ideas that span multiple issue categories
 <!-- BEGIN_DO_NOT_EDIT! Category: big ideas -->
