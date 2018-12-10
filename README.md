@@ -30,7 +30,7 @@ We welcome contributions. A good place to start is to review the [issues list](h
 
 This work is being performed under the [W3C rdf-dev Community Group](https://www.w3.org/community/rdf-dev/) and is subject to the [W3C Community Contributor License Agreement (CLA)](https://www.w3.org/community/about/agreements/cla/).
 
-# Topics
+# Issue topics
 
 Issues and ideas are recorded in our [issues list](https://github.com/w3c/EasierRDF/issues) and divided into the categories below using [issue labels](https://github.com/w3c/EasierRDF/labels).
 
