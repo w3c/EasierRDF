@@ -45,6 +45,12 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: tools](https://github.com/w3c/EasierRDF/labels/Category%3A%20tools): For RDF tools
 <!-- BEGIN_DO_NOT_EDIT! Category: tools -->
+* [Issue 43: Nobody knows who does what with what](https://github.com/w3c/EasierRDF/issues/43)
+* [Issue 40: Spoggy easy create & read graphs](https://github.com/w3c/EasierRDF/issues/40)
+* [Issue 39: SPARQL Triplestore and Reasoning Performance](https://github.com/w3c/EasierRDF/issues/39)
+* [Issue 38: Lack of Full OWL2 Support in Triplestores](https://github.com/w3c/EasierRDF/issues/38)
+* [Issue 37: Lack of RDF Visualisation Software](https://github.com/w3c/EasierRDF/issues/37)
+* [Issue 35: Lack of a Good Editor](https://github.com/w3c/EasierRDF/issues/35)
 * [Issue 5: Moribundity of Tools](https://github.com/w3c/EasierRDF/issues/5)
 * [Issue 4: Overview of an RDF triple store](https://github.com/w3c/EasierRDF/issues/4)
 * [Issue 3: Lack of automated feedback / validation](https://github.com/w3c/EasierRDF/issues/3)
@@ -53,6 +59,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: education](https://github.com/w3c/EasierRDF/labels/Category%3A%20education): For documentation and education
 <!-- BEGIN_DO_NOT_EDIT! Category: education -->
+* [Issue 41: Idea: Material to be put in an undergraduate DB or WebDev unit](https://github.com/w3c/EasierRDF/issues/41)
 * [Issue 11: Rejection of SQL and OO as Metaphors](https://github.com/w3c/EasierRDF/issues/11)
 * [Issue 10: Lack of a Canonical Example](https://github.com/w3c/EasierRDF/issues/10)
 * [Issue 9: Lack of Technology Framing](https://github.com/w3c/EasierRDF/issues/9)
@@ -63,6 +70,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: usage](https://github.com/w3c/EasierRDF/labels/Category%3A%20usage): For issues around RDF usage in practice
 <!-- BEGIN_DO_NOT_EDIT! Category: usage -->
+* [Issue 43: Nobody knows who does what with what](https://github.com/w3c/EasierRDF/issues/43)
 * [Issue 16: Easier-to-use competitors](https://github.com/w3c/EasierRDF/issues/16)
 * [Issue 15: Define an easier profile of RDF](https://github.com/w3c/EasierRDF/issues/15)
 * [Issue 14: Namespaces are lost in the RDF model](https://github.com/w3c/EasierRDF/issues/14)
@@ -72,6 +80,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: language features](https://github.com/w3c/EasierRDF/labels/Category%3A%20language%20features): For language features of RDF itself -- model and syntax
 <!-- BEGIN_DO_NOT_EDIT! Category: language features -->
+* [Issue 42: Maybe "datatype" should be in the RDF Graph explicitly](https://github.com/w3c/EasierRDF/issues/42)
 * [Issue 25: Vocabulary for new semantic extensions](https://github.com/w3c/EasierRDF/issues/25)
 * [Issue 24: Decouple semantics from data model](https://github.com/w3c/EasierRDF/issues/24)
 * [Issue 23: Working with named graphs gets complicated fast](https://github.com/w3c/EasierRDF/issues/23)
@@ -93,8 +102,3 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## Uncategorized
 [Search](https://github.com/w3c/EasierRDF/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+no%3Alabel) for issues with no category label.
-
-
-
-
-
