@@ -94,6 +94,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: related standards](https://github.com/w3c/EasierRDF/labels/Category%3A%20related%20standards): For RDF-related standards
 <!-- BEGIN_DO_NOT_EDIT! Category: related standards -->
+* [Issue 44: SPARQL: The unnamed/default graph should have a standard name](https://github.com/w3c/EasierRDF/issues/44)
 * [Issue 29: No standard way to map a JSON predicate to a URI](https://github.com/w3c/EasierRDF/issues/29)
 * [Issue 28: Named solution sets in SPARQL](https://github.com/w3c/EasierRDF/issues/28)
 * [Issue 27: Lack of a standard rules language](https://github.com/w3c/EasierRDF/issues/27)
