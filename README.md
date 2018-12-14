@@ -80,6 +80,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: language features](https://github.com/w3c/EasierRDF/labels/Category%3A%20language%20features): For language features of RDF itself -- model and syntax
 <!-- BEGIN_DO_NOT_EDIT! Category: language features -->
+* [Issue 45: Property Graphs](https://github.com/w3c/EasierRDF/issues/45)
 * [Issue 42: Maybe "datatype" should be in the RDF Graph explicitly](https://github.com/w3c/EasierRDF/issues/42)
 * [Issue 25: Vocabulary for new semantic extensions](https://github.com/w3c/EasierRDF/issues/25)
 * [Issue 24: Decouple semantics from data model](https://github.com/w3c/EasierRDF/issues/24)
@@ -96,7 +97,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 <!-- BEGIN_DO_NOT_EDIT! Category: related standards -->
 * [Issue 44: SPARQL: The unnamed/default graph should have a standard name](https://github.com/w3c/EasierRDF/issues/44)
 * [Issue 29: No standard way to map a JSON predicate to a URI](https://github.com/w3c/EasierRDF/issues/29)
-* [Issue 28: Named solution sets in SPARQL](https://github.com/w3c/EasierRDF/issues/28)
+* [Issue 28: SPARQL: Named solution sets](https://github.com/w3c/EasierRDF/issues/28)
 * [Issue 27: Lack of a standard rules language](https://github.com/w3c/EasierRDF/issues/27)
 * [Issue 26: Lack of standard RDF canonicalization](https://github.com/w3c/EasierRDF/issues/26)
 <!-- END_DO_NOT_EDIT! Category: related standards -->
