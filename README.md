@@ -2,17 +2,17 @@
 
 _This repository is for experimental/exploratory work on making RDF easier to use, with the goal of making it easy enough for *average* developers (middle 33% of ability).  By "RDF" we mean the whole RDF ecosystem -- including SPARQL, OWL, tools, standards, educational materials, etc. -- everything that a developer touches when using RDF.  Our plan:_
 * _focus and coordinate community efforts;_
-* _collect and review ideas for discussion at the [W3C Graph Data Workshop](https://www.w3.org/Data/events/data-ws-2019/cfp.html) in March 2019, and prepare the path for launching new standards work at W3C; and_
-* _launch additional W3C Community Groups to tackle specific areas of need, including:_
-  * _[n3-dev Community Group](https://www.w3.org/community/n3-dev/), for standardizing N3 rules._
+* _launch additional W3C Community Groups to tackle specific areas of need, including_
+  * _[n3-dev Community Group](https://www.w3.org/community/n3-dev/), for standardizing N3 rules; and_
+* _contribute to related efforts, such as the [W3C Graph Data Workshop](https://www.w3.org/Data/events/data-ws-2019/cfp.html) in March 2019, which prepare the path for launching new standards work at W3C._
 
 ## Introduction
 
-Businesses have used relational databases for many years, but it is costly to adapt database schema and applications in response to evolving application needs. We've seen the emergence of NoSQL databases, e.g. CouchDB for keyed access to JSON. There is a need for fine grained links between data, and this is driving rapid growth of interest in graph data.  Unfortunately, there is a lack of interoperability across existing graph data solutions, motivating interest in open standards for an interchange framework. 
+The value of RDF for graph data has been well proven, in many applications, over the 20+ years since it was first created.  However, difficulty of use has caused RDF to be categorized as a niche technology. This is unfortunate because it limits uptake and prevents RDF from being viewed as a viable choice for many use cases that would otherwise be an excellent fit.
 
-RDF is an appealing vendor neutral framework for graph data, and is well positioned to take on the role of an interchange framework as well as being a flexible data/metadata framework in its own right.  The value of RDF has been well proven, in many applications, over the 20+ years since it was first created.  However, difficulty of use has caused RDF to be categorized as a niche technology. This is unfortunate because it limits uptake and prevents RDF from being a viable choice for many use cases that would otherwise be an excellent fit.
+This work seeks to build upon our experience with RDF to examine how we can make it easier to use.  What aspects or gaps have caused difficulty?    How can RDF better support features that users commonly need and other graph databases offer?  How can we make RDF -- or a successor -- easy enough for *average* developers?
 
-This work seeks to build upon our experience with RDF to examine how we can make it easier to use.  What aspects or gaps have caused difficulty?  How can we make RDF -- or a successor -- easy enough for *average* developers?  For more background, see the [email thread](https://lists.w3.org/Archives/Public/semantic-web/2018Nov/0036.html) that led to this effort.
+At the same time, businesses are now showing a rapidly growing interest in graph data.  Businesses have used relational databases for many years, but it is costly to adapt database schema and applications in response to evolving application needs.  Other graph and NoSQL databases have emerged to help meet this need.  Unfortunately, there is a lack of interoperability across existing graph data solutions, motivating [interest in open standards for an interchange framework](https://www.w3.org/Data/events/data-ws-2019/cfp.html).  RDF is an appealing vendor neutral framework for graph data, and is well positioned to take on the role of an interchange framework.  Although this interest in RDF as a graph interchange framework arose independently from the effort to make RDF easier, there is a natural overlap in motivation, and both efforts can benefit each other.
 
 ## Guiding principles
 
