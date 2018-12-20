@@ -4,7 +4,7 @@ _This repository is for experimental/exploratory work on making RDF easier to us
 * _focus and coordinate community efforts;_
 * _launch additional W3C Community Groups to tackle specific areas of need, including_
   * _[n3-dev Community Group](https://www.w3.org/community/n3-dev/), for standardizing N3 rules; and_
-* _contribute to related efforts, such as the [W3C Graph Data Workshop](https://www.w3.org/Data/events/data-ws-2019/cfp.html) in March 2019, which prepare the path for launching new standards work at W3C._
+* _contribute to (and benefit from) related efforts, such as the [W3C Graph Data Workshop](https://www.w3.org/Data/events/data-ws-2019/cfp.html) in March 2019, which prepare the path for launching new standards work at W3C._
 
 ## Introduction
 
@@ -12,7 +12,7 @@ The value of RDF for graph data has been well proven, in many applications, over
 
 This work seeks to build upon our experience with RDF to examine how we can make it easier to use.  What aspects or gaps have caused difficulty?    How can RDF better support features that users commonly need and other graph databases offer?  How can we make RDF -- or a successor -- easy enough for *average* developers?
 
-At the same time, businesses are now showing a rapidly growing interest in graph data.  Businesses have used relational databases for many years, but it is costly to adapt database schema and applications in response to evolving application needs.  Other graph and NoSQL databases have emerged to help meet this need.  Unfortunately, there is a lack of interoperability across existing graph data solutions, motivating [interest in open standards for an interchange framework](https://www.w3.org/Data/events/data-ws-2019/cfp.html).  RDF is an appealing vendor neutral framework for graph data, and is well positioned to take on the role of an interchange framework.  Although this interest in RDF as a graph interchange framework arose independently from the effort to make RDF easier, there is a natural overlap in motivation, and both efforts can benefit each other.
+At the same time, businesses are now showing a rapidly growing interest in graph data.  Businesses have used relational databases for many years, but it is costly to adapt database schema and applications in response to evolving application needs.  Other graph and NoSQL databases have emerged to help meet this need.  Unfortunately, there is a lack of interoperability across existing graph data solutions, motivating [interest in open standards for an interchange framework](https://www.w3.org/Data/events/data-ws-2019/cfp.html).  RDF is an appealing vendor neutral framework for graph data, and is well positioned to take on the role of an interchange framework.  Although this interest in RDF as a graph interchange framework arose independently from the effort to make RDF easier, and has different goals, there is a natural overlap in motivation, and both efforts can benefit each other.
 
 ## Guiding principles
 
