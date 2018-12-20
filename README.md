@@ -70,6 +70,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: usage](https://github.com/w3c/EasierRDF/labels/Category%3A%20usage): For issues around RDF usage in practice
 <!-- BEGIN_DO_NOT_EDIT! Category: usage -->
+* [Issue 49: Popular use cases for graph data](https://github.com/w3c/EasierRDF/issues/49)
 * [Issue 43: Nobody knows who does what with what](https://github.com/w3c/EasierRDF/issues/43)
 * [Issue 16: Easier-to-use competitors](https://github.com/w3c/EasierRDF/issues/16)
 * [Issue 15: Define an easier profile of RDF](https://github.com/w3c/EasierRDF/issues/15)
@@ -111,4 +112,3 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## Uncategorized
 [Search](https://github.com/w3c/EasierRDF/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+no%3Alabel) for issues with no category label.
-
