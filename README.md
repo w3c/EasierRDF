@@ -104,6 +104,11 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 * [Issue 26: Lack of standard RDF canonicalization](https://github.com/w3c/EasierRDF/issues/26)
 <!-- END_DO_NOT_EDIT! Category: related standards -->
 
+
+## [Category: easier profile](https://github.com/w3c/EasierRDF/labels/Category%3A%20easier%20profile): For candidate features of an easier profile of RDF
+<!-- BEGIN_DO_NOT_EDIT! Category: easier profile -->
+<!-- END_DO_NOT_EDIT! Category: easier profile -->
+
 ## Uncategorized
 [Search](https://github.com/w3c/EasierRDF/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+no%3Alabel) for issues with no category label.
 
