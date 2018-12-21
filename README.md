@@ -108,6 +108,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: easier profile](https://github.com/w3c/EasierRDF/labels/Category%3A%20easier%20profile): For candidate features of an easier profile of RDF
 <!-- BEGIN_DO_NOT_EDIT! Category: easier profile -->
+* [Issue 50: Profile: Exactly one type per representation of a resource](https://github.com/w3c/EasierRDF/issues/50)
 <!-- END_DO_NOT_EDIT! Category: easier profile -->
 
 ## Uncategorized
