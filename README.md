@@ -45,6 +45,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: tools](https://github.com/w3c/EasierRDF/labels/Category%3A%20tools): For RDF tools
 <!-- BEGIN_DO_NOT_EDIT! Category: tools -->
+* [Issue 52: rdf: and rdfs: namespaces should be transparently merged](https://github.com/w3c/EasierRDF/issues/52)
 * [Issue 43: Nobody knows who does what with what](https://github.com/w3c/EasierRDF/issues/43)
 * [Issue 40: Spoggy easy create & read graphs](https://github.com/w3c/EasierRDF/issues/40)
 * [Issue 39: SPARQL Triplestore and Reasoning Performance](https://github.com/w3c/EasierRDF/issues/39)
@@ -81,6 +82,8 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: language features](https://github.com/w3c/EasierRDF/labels/Category%3A%20language%20features): For language features of RDF itself -- model and syntax
 <!-- BEGIN_DO_NOT_EDIT! Category: language features -->
+* [Issue 52: rdf: and rdfs: namespaces should be transparently merged](https://github.com/w3c/EasierRDF/issues/52)
+* [Issue 51: Relationship to the Web of Things](https://github.com/w3c/EasierRDF/issues/51)
 * [Issue 48: Different kinds of identifiers](https://github.com/w3c/EasierRDF/issues/48)
 * [Issue 45: Property Graphs](https://github.com/w3c/EasierRDF/issues/45)
 * [Issue 42: Maybe "datatype" should be in the RDF Graph explicitly](https://github.com/w3c/EasierRDF/issues/42)
