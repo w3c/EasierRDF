@@ -52,7 +52,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 * [Issue 38: Lack of Full OWL2 Support in Triplestores](https://github.com/w3c/EasierRDF/issues/38)
 * [Issue 37: Lack of RDF Visualisation Software](https://github.com/w3c/EasierRDF/issues/37)
 * [Issue 35: Lack of a Good Editor](https://github.com/w3c/EasierRDF/issues/35)
-* [Issue 53: Lack of good end-user editor](https://github.com/w3c/EasierRDF/issues/53)
+* [Issue 53: Lack of good forms-based end-user editor](https://github.com/w3c/EasierRDF/issues/53)
 * [Issue 5: Moribundity of Tools](https://github.com/w3c/EasierRDF/issues/5)
 * [Issue 4: Overview of an RDF triple store](https://github.com/w3c/EasierRDF/issues/4)
 * [Issue 3: Lack of automated feedback / validation](https://github.com/w3c/EasierRDF/issues/3)
