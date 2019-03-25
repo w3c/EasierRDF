@@ -25,7 +25,7 @@ At the same time, businesses are now showing a rapidly growing interest in graph
 
 ## How to contribute?
 
-We welcome contributions. A good place to start is to review the [issues list](https://github.com/w3c/EasierRDF/issues), categorized below. Please feel free to start a new issue if none of the existing ones are a good match. We also welcome longer position papers and analyses, preferably in the GitHub markdown format.  You can also send comments to the mailing list: [semantic-web@w3.org](https://lists.w3.org/Archives/Public/semantic-web/).
+We welcome contributions. A good place to start is to review the [issues list](https://github.com/w3c/EasierRDF/issues), categorized below. Please feel free to start a new issue if none of the existing ones are a good match. You can also send comments to the mailing list: [semantic-web@w3.org](https://lists.w3.org/Archives/Public/semantic-web/).
 
 ## Intellectual property rights
 
