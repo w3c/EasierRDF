@@ -46,14 +46,15 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: tools](https://github.com/w3c/EasierRDF/labels/Category%3A%20tools): For RDF tools
 <!-- BEGIN_DO_NOT_EDIT! Category: tools -->
-* [Issue 52: rdf: and rdfs: namespaces should be transparently merged](https://github.com/w3c/EasierRDF/issues/52)
+* [Issue 53: Lack of good forms-based end-user editor](https://github.com/w3c/EasierRDF/issues/53)
+* [Issue 52: Transparently merge rdf: and rdfs: namespaces](https://github.com/w3c/EasierRDF/issues/52)
 * [Issue 43: Nobody knows who does what with what](https://github.com/w3c/EasierRDF/issues/43)
 * [Issue 40: Spoggy easy create & read graphs](https://github.com/w3c/EasierRDF/issues/40)
 * [Issue 39: SPARQL Triplestore and Reasoning Performance](https://github.com/w3c/EasierRDF/issues/39)
 * [Issue 38: Lack of Full OWL2 Support in Triplestores](https://github.com/w3c/EasierRDF/issues/38)
 * [Issue 37: Lack of RDF Visualisation Software](https://github.com/w3c/EasierRDF/issues/37)
 * [Issue 35: Lack of a Good Editor](https://github.com/w3c/EasierRDF/issues/35)
-* [Issue 53: Lack of good forms-based end-user editor](https://github.com/w3c/EasierRDF/issues/53)
+* [Issue 33: Idea: Build powerful query engines](https://github.com/w3c/EasierRDF/issues/33)
 * [Issue 5: Moribundity of Tools](https://github.com/w3c/EasierRDF/issues/5)
 * [Issue 4: Overview of an RDF triple store](https://github.com/w3c/EasierRDF/issues/4)
 * [Issue 3: Lack of automated feedback / validation](https://github.com/w3c/EasierRDF/issues/3)
@@ -62,6 +63,8 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: education](https://github.com/w3c/EasierRDF/labels/Category%3A%20education): For documentation and education
 <!-- BEGIN_DO_NOT_EDIT! Category: education -->
+* [Issue 59: Reduce the jargon](https://github.com/w3c/EasierRDF/issues/59)
+* [Issue 58: Confusion between RDF and Linked Data](https://github.com/w3c/EasierRDF/issues/58)
 * [Issue 41: Idea: Material to be put in an undergraduate DB or WebDev unit](https://github.com/w3c/EasierRDF/issues/41)
 * [Issue 11: Rejection of SQL and OO as Metaphors](https://github.com/w3c/EasierRDF/issues/11)
 * [Issue 10: Lack of a Canonical Example](https://github.com/w3c/EasierRDF/issues/10)
@@ -73,6 +76,8 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: usage](https://github.com/w3c/EasierRDF/labels/Category%3A%20usage): For issues around RDF usage in practice
 <!-- BEGIN_DO_NOT_EDIT! Category: usage -->
+* [Issue 66: Dereferencing RDF, RDFS & OWL in a browser should return human-friendly versions](https://github.com/w3c/EasierRDF/issues/66)
+* [Issue 65: Do not use anonymous classes](https://github.com/w3c/EasierRDF/issues/65)
 * [Issue 49: Popular use cases for graph data](https://github.com/w3c/EasierRDF/issues/49)
 * [Issue 43: Nobody knows who does what with what](https://github.com/w3c/EasierRDF/issues/43)
 * [Issue 16: Easier-to-use competitors](https://github.com/w3c/EasierRDF/issues/16)
@@ -84,28 +89,28 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: language features](https://github.com/w3c/EasierRDF/labels/Category%3A%20language%20features): For language features of RDF itself -- model and syntax
 <!-- BEGIN_DO_NOT_EDIT! Category: language features -->
-* [Issue 52: rdf: and rdfs: namespaces should be transparently merged](https://github.com/w3c/EasierRDF/issues/52)
+* [Issue 62: Retain relative URIs at the RDF model level](https://github.com/w3c/EasierRDF/issues/62)
+* [Issue 61: Simplified Reification](https://github.com/w3c/EasierRDF/issues/61)
+* [Issue 57: Composition of named graphs](https://github.com/w3c/EasierRDF/issues/57)
+* [Issue 52: Transparently merge rdf: and rdfs: namespaces](https://github.com/w3c/EasierRDF/issues/52)
 * [Issue 51: Relationship to the Web of Things](https://github.com/w3c/EasierRDF/issues/51)
 * [Issue 48: Different kinds of identifiers](https://github.com/w3c/EasierRDF/issues/48)
 * [Issue 45: Property Graphs](https://github.com/w3c/EasierRDF/issues/45)
 * [Issue 42: Maybe "datatype" should be in the RDF Graph explicitly](https://github.com/w3c/EasierRDF/issues/42)
 * [Issue 25: Vocabulary for new semantic extensions](https://github.com/w3c/EasierRDF/issues/25)
 * [Issue 24: Decouple semantics from data model](https://github.com/w3c/EasierRDF/issues/24)
-* [Issue 23: Working with named graphs gets complicated fast](https://github.com/w3c/EasierRDF/issues/23)
 * [Issue 22: Language-tagged strings](https://github.com/w3c/EasierRDF/issues/22)
 * [Issue 21: Literals as subjects](https://github.com/w3c/EasierRDF/issues/21)
 * [Issue 20: Standardized n-ary relations (and property graphs)](https://github.com/w3c/EasierRDF/issues/20)
 * [Issue 19: Blank nodes](https://github.com/w3c/EasierRDF/issues/19)
-* [Issue 18: SPARQL-friendly lists](https://github.com/w3c/EasierRDF/issues/18)
 * [Issue 17: IRI reuse and synonyms](https://github.com/w3c/EasierRDF/issues/17)
 <!-- END_DO_NOT_EDIT! Category: language features -->
 
 ## [Category: related standards](https://github.com/w3c/EasierRDF/labels/Category%3A%20related%20standards): For RDF-related standards
 <!-- BEGIN_DO_NOT_EDIT! Category: related standards -->
-* [Issue 47: SPARQL: Miscellaneous features wanted](https://github.com/w3c/EasierRDF/issues/47)
-* [Issue 44: SPARQL: The unnamed/default graph should have a standard name](https://github.com/w3c/EasierRDF/issues/44)
+* [Issue 64: Mappings between shape languages](https://github.com/w3c/EasierRDF/issues/64)
+* [Issue 60: transparently switch between CWA and OWA](https://github.com/w3c/EasierRDF/issues/60)
 * [Issue 29: No standard way to map a JSON predicate to a URI](https://github.com/w3c/EasierRDF/issues/29)
-* [Issue 28: SPARQL: Named solution sets](https://github.com/w3c/EasierRDF/issues/28)
 * [Issue 27: Lack of a standard rules language](https://github.com/w3c/EasierRDF/issues/27)
 * [Issue 26: Lack of standard RDF canonicalization](https://github.com/w3c/EasierRDF/issues/26)
 <!-- END_DO_NOT_EDIT! Category: related standards -->
@@ -113,8 +118,13 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: easier profile](https://github.com/w3c/EasierRDF/labels/Category%3A%20easier%20profile): For candidate features of an easier profile of RDF
 <!-- BEGIN_DO_NOT_EDIT! Category: easier profile -->
+* [Issue 56: OWL is too hard](https://github.com/w3c/EasierRDF/issues/56)
 * [Issue 50: Profile: Exactly one type per representation of a resource](https://github.com/w3c/EasierRDF/issues/50)
 <!-- END_DO_NOT_EDIT! Category: easier profile -->
+
+## [Category: owl](https://github.com/w3c/EasierRDF/labels/Category%3A%20owl): For OWL-related features
+<!-- BEGIN_DO_NOT_EDIT! Category: owl -->
+<!-- END_DO_NOT_EDIT! Category: owl -->
 
 ## Uncategorized
 [Search](https://github.com/w3c/EasierRDF/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+no%3Alabel) for issues with no category label.
