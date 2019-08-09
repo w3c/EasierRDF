@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head profile="http://www.w3.org/2003/g/data-view">
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="canonical" href="@@URL@@">
+
+    <link rel="stylesheet" type="text/css" href="https://www.w3.org/StyleSheets/TR/2016/W3C-Member-SUBM"/>
+    <style type="text/css">
+.RDFstarExt { color: #0000FF; }
+
+.semantictable { background-color: #FFFFAA; padding:0.5em; }
+
+  table { border-collapse:collapse; }
+  table, td, th { border:1px solid black; }
+  caption { font-weight: bold; text-align: left ; }  
+ 
+a.bibref {
+    text-decoration:    none;
+}
+
+cite .bibref {
+    font-style: normal;
+}
+
+    </style>
+
+    <title>RDF* Semantics</title>
+  </head>
+
+<!--   https://www.w3.org/pubrules/doc/rules/?profile=MEM-SUBM -->
+
+  <body>
+
+
+<h2 id="notation" aria-level="1" role="heading"><span class="secno">4. </span>Notation and Terminology</h2>
+
+<p>This document uses the same terminology as used in [<cite><a class="bibref" href="#bib-RDF11-MT">RDF11-MT</a></cite>] with the following exceptions.</p>
+
+
+<p>An <dfn id="dfn-rdfstar-triple">RDF* triple</dfn> (or simply <dfn id="dfn-triple">triple</dfn>) is a 3-tuple as defined by Definition&nbsp;1 in [<cite><a class="bibref" href="#bib-HARTIG17">HARTIG17</a></cite>].</p>
+
+<p>An <dfn id="dfn-rdfstar-graph">RDF* graph</dfn> (or simply <dfn id="dfn-graph">graph</dfn>) is a set of <a href="#dfn-rdfstar-triple" class="internalDFN">RDF* triples</a>.</p>
+
+
+<h2 id="simple" aria-level="1" role="heading"><span class="secno">5. </span> Simple Interpretations</h2>
+
+<p>This section introduces RDF*-specific extensions of the notions defined in <a href="https://www.w3.org/TR/rdf11-mt/#simple-interpretations">Section 5</a> of [<cite><a class="bibref" href="#bib-RDF11-MT">RDF11-MT</a></cite>]. All text that has been copied from [<cite><a class="bibref" href="#bib-RDF11-MT">RDF11-MT</a></cite>] is given in black color, and the text that has been added to cover features added by RDF* is marked in <span class="RDFstarExt">blue</span> color.</p>
+
+<p>A <dfn id="dfn-simple-interpretation">simple interpretation</dfn> I is a structure consisting of:</p>
+
+<table>
+<caption>Definition of a simple interpretation.</caption>
+  <tbody><tr>
+        <td class="semantictable">1. A non-empty set IR of resources, called the domain or universe
+            of I.
+      <p>2. <span>A set IP, called the set of properties of I.</span></p>
+          <p>3. A mapping IEXT from IP into the powerset of IR x IR i.e. the
+            set of sets of pairs &lt; x, y &gt; with x and y in IR .</p>
+      <p>4. A mapping IS from IRIs into (IR union IP)</p>
+      <p>5. A partial mapping IL from literals into IR </p>
+      <p class="RDFstarExt">6. A mapping IT from RDF* triples into IR.</p>
+     </td>
+  </tr>
+  </tbody>
+</table>
+  
+<p>IEXT(x), called
+      the <dfn id="dfn-extension">extension</dfn> of x, is a
+      set of pairs which identify the arguments for which the property is true,
+      that is, a binary relational extension.
+</p>
+
+<p class="RDFstarExt">To define the denotation of a ground RDF graph in a simple interpretation I we first need to introduce an auxiliary function: For a simple interpretation I, let I' be the following function from <a href="https://www.w3.org/TR/rdf11-mt/#dfn-name" class="externalDFN">names</a> and <a href="#dfn-rdf-triple" class="internalDFN">triples</a> to elements of the universe of I:</p>
+
+<table>
+<caption class="RDFstarExt">Definition of auxiliary function.</caption>
+  <tbody>
+    <tr>
+      <td class="semantictable"><span class="RDFstarExt">if E is a literal, then I'(E) = IL(E)</span></td>
+    </tr>
+
+    <tr>
+      <td class="semantictable"><span class="RDFstarExt">if E is an IRI, then I'(E) = IS(E)</span></td>
+    </tr>
+
+    <tr>
+      <td class="semantictable"><span class="RDFstarExt">if E is an RDF* triple, then I'(E) = IT(E)</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><span class="RDFstarExt">When using RDF* in SA mode, t</span>he denotation of a ground RDF<span class="RDFstarExt">*</span> graph in a simple interpretation I is then given by the following rules, where the interpretation is also treated as a function from expressions (names, triples and graphs) to elements of the universe and truth values:</p>
+
+<table>
+<caption>Semantic conditions for ground graphs <span class="RDFstarExt">in SA mode</span>.</caption>
+        <tbody>
+          <tr>
+      <td class="semantictable"><span class="RDFstarExt">if E is a literal or an IRI, then I(E) = I'(E)</span></td>
+          </tr>
+
+          <tr>
+        <td class="semantictable"><p>if E is a ground triple s p o<code>.</code>
+          then I(E) = true if </p>
+        <p>I(p) is in IP and the pair &lt;<span class="RDFstarExt">I'</span>(s),<span class="RDFstarExt">I'</span>(o)&gt;
+          is in IEXT(I(p))</p>
+          <p>otherwise I(E) = false.</p></td>
+          </tr>
+
+          <tr>
+            <td class="semantictable">if E is a ground RDF<span class="RDFstarExt">*</span> graph then I(E) = false if I(E') =
+            false for some triple E' in E, otherwise I(E) =true.</td>
+          </tr>
+        </tbody>
+</table>
+
+<p> If IL(E) is undefined for some literal E then E has no semantic value, so any triple containing it will be false, so any graph containing that triple will also be false.</p>
+<p> The final condition implies that the empty graph (the empty set of triples) is always true.</p>
+
+
+<p class="RDFstarExt">While the final condition requires the (simple) interpretation of every RDF* triple in the given RDF* graph to be true, the same is not required for any triple that occurs within a (nested) triple in the graph (unless that triple is also contained directly in the graph). When using RDF* in PG mode the condition covers such triples as well:</p>
+
+<table>
+<caption>Semantic conditions for ground graphs <span class="RDFstarExt">in PG mode</span>.</caption>
+        <tbody>
+          <tr>
+      <td class="semantictable"><span class="RDFstarExt">if E is a literal or an IRI, then I(E) = I'(E)</span></td>
+          </tr>
+
+          <tr>
+        <td class="semantictable"><p>if E is a ground triple s p o<code>.</code>
+          then I(E) = true if </p>
+        <p>I(p) is in IP and the pair &lt;<span class="RDFstarExt">I'</span>(s),<span class="RDFstarExt">I'</span>(o)&gt;
+          is in IEXT(I(p))</p>
+          <p>otherwise I(E) = false.</p></td>
+          </tr>
+
+          <tr>
+            <td class="semantictable">if E is a ground RDF<span class="RDFstarExt">*</span> graph then I(E) = false if I(E') =
+            false for some triple E' in <span class="RDFstarExt">T<sup>+</sup>(E)</span>, otherwise I(E) =true. <span class="RDFstarExt">(As defined in Section&nbsp;2.1 of [<cite><a class="bibref" href="#bib-HARTIG17">HARTIG17</a></cite>], T<sup>+</sup>(E) denotes the set of all RDF* triples that recursively occur in E.)</span></td>
+          </tr>
+        </tbody>
+</table>
+
+<p class="RDFstarExt">The definitions and statements in the remainder of this document consider both of the two modes in which RDF* may be used. That is, whenever in the remainder of this document a (simple) interpretation I is used as a function, the corresponding semantic conditions as defined above apply depending on whether RDF* is meant to be used SA mode or in PG mode.</p>
+
+<p>The sets IP and IR may overlap, indeed IP can be a subset of IR. Because of the domain conditions on IEXT, the denotation of the subject and object of any true triple will be in IR; so any IRI which occurs in a graph both as a predicate and as a subject or object will denote something in the intersection of IP and IR.</p>
+
+
+<h3 id="blank_nodes" aria-level="2" role="heading"><span class="secno">5.1 </span>Blank nodes</h3>
+
+<p> Let [I+A] be the mapping defined in <a href="https://www.w3.org/TR/rdf11-mt/#blank-nodes">Section 5.1</a> of [<cite><a class="bibref" href="#bib-RDF11-MT">RDF11-MT</a></cite>]. Then the semantic conditions for an RDF graph are:</p>
+
+      <table>
+      <caption>Semantic condition for blank nodes.</caption>
+        <tbody>
+          <tr>
+            <td class="semantictable">If E is an RDF graph then I(E) = true if [I+A](E) =
+            true for some mapping A from the set of blank nodes in E to IR, otherwise
+            I(E)= false.</td>
+          </tr>
+        </tbody>
+      </table>
+
+<h3 aria-level="2" role="heading" id="h3_simpleentailment"><span class="secno">5.2 </span>Simple Entailment</h3>
+
+<p>Following standard terminology, we say that I (simply) <dfn id="dfn-satisfies">satisfies</dfn> E when I(E)=true, that E is (simply) <dfn id="dfn-satisfiable">satisfiable</dfn> when a simple interpretation exists which satisfies it, otherwise (simply) <dfn id="dfn-unsatisfiable">unsatisfiable</dfn>, and that a graph G simply <dfn id="dfn-entail">entail</dfn><strong>s</strong> a graph E when every interpretation which satisfies G also satisfies E. If two graphs E and F each entail the other then they are logically <dfn id="dfn-equivalent">equivalent</dfn>.</p>
+
+<p>Any process which constructs a graph E from
+    some other graph S is (simply) <dfn id="dfn-valid">valid</dfn> if S
+    simply entails E in every case, otherwise <dfn id="dfn-invalid.x">invalid.</dfn></p>
+
+
+
+<h2 aria-level="1" role="heading" id="h2_references"><span class="secno">B. </span>References</h2>
+<dl class="bibliography">
+<dt id="bib-RDF11-MT">[RDF11-MT]</dt><dd>Patrick J. Hayes, Peter F. Patel-Schneider. <cite><a href="http://www.w3.org/TR/2014/REC-rdf11-mt-20140225/">RDF 1.1 Semantics.</a></cite> W3C Recommendation, 25 February 2014. URL: <a href="http://www.w3.org/TR/2014/REC-rdf11-mt-20140225/">http://www.w3.org/TR/2014/REC-rdf11-mt-20140225/</a>. The latest edition is available at <a href="http://www.w3.org/TR/rdf11-mt/">http://www.w3.org/TR/rdf11-mt/</a>
+</dd>
+<dt id="bib-HARTIG17">[HARTIG17]</dt><dd>Olaf Hartig. <cite><a href="http://olafhartig.de/files/Hartig_AMW2017_RDFStar.pdf">Foundations of RDF* and SPARQL* - An Alternative Approach to Statement-Level Metadata in RDF.</a></cite> 	In Proceedings of the 11th Alberto Mendelzon International Workshop on Foundations of Data Management (AMW), Montevideo, Uruguay, June 2017
+</dd>
+</dl>
+
+
+  </body>
+</html>
