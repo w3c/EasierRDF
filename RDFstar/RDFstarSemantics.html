@@ -35,7 +35,7 @@ cite .bibref {
   <body>
 
 
-<h2 id="notation" aria-level="1" role="heading"><span class="secno">4. </span>Notation and Terminology</h2>
+<h2 id="notation" aria-level="1" role="heading"><span class="secno">1. </span>Notation and Terminology</h2>
 
 <p>This document uses the same terminology as used in [<cite><a class="bibref" href="#bib-RDF11-MT">RDF11-MT</a></cite>] with the following exceptions.</p>
 
@@ -45,9 +45,11 @@ cite .bibref {
 <p>An <dfn id="dfn-rdfstar-graph">RDF* graph</dfn> (or simply <dfn id="dfn-graph">graph</dfn>) is a set of <a href="#dfn-rdfstar-triple" class="internalDFN">RDF* triples</a>.</p>
 
 
-<h2 id="simple" aria-level="1" role="heading"><span class="secno">5. </span> Simple Interpretations</h2>
 
-<p>This section introduces RDF*-specific extensions of the notions defined in <a href="https://www.w3.org/TR/rdf11-mt/#simple-interpretations">Section 5</a> of [<cite><a class="bibref" href="#bib-RDF11-MT">RDF11-MT</a></cite>]. All text that has been copied from [<cite><a class="bibref" href="#bib-RDF11-MT">RDF11-MT</a></cite>] is given in black color, and the text that has been added to cover features added by RDF* is marked in <span class="RDFstarExt">blue</span> color.</p>
+
+<h2 id="simple" aria-level="1" role="heading"><span class="secno">2. </span> Simple Interpretations</h2>
+
+<p>This section introduces RDF*-specific extensions of the notions defined in <a href="https://www.w3.org/TR/rdf11-mt/#simple-interpretations">Section 5</a> of [<cite><a class="bibref" href="#bib-RDF11-MT">RDF11-MT</a></cite>]. All text that has been copied from [<cite><a class="bibref" href="#bib-RDF11-MT">RDF11-MT</a></cite>] is given in black color, and the text that has been added to cover features specific to RDF* is marked in <span class="RDFstarExt">blue</span> color.</p>
 
 <p>A <dfn id="dfn-simple-interpretation">simple interpretation</dfn> I is a structure consisting of:</p>
 
@@ -149,28 +151,37 @@ cite .bibref {
 <p>The sets IP and IR may overlap, indeed IP can be a subset of IR. Because of the domain conditions on IEXT, the denotation of the subject and object of any true triple will be in IR; so any IRI which occurs in a graph both as a predicate and as a subject or object will denote something in the intersection of IP and IR.</p>
 
 
-<h3 id="blank_nodes" aria-level="2" role="heading"><span class="secno">5.1 </span>Blank nodes</h3>
+<h3 id="blank_nodes" aria-level="2" role="heading"><span class="secno">2.1 </span>Blank nodes</h3>
 
-<p> Let [I+A] be the mapping defined in <a href="https://www.w3.org/TR/rdf11-mt/#blank-nodes">Section 5.1</a> of [<cite><a class="bibref" href="#bib-RDF11-MT">RDF11-MT</a></cite>]. Then the semantic conditions for an RDF graph are:</p>
+<p> Let [I+A] be the mapping defined in <a href="https://www.w3.org/TR/rdf11-mt/#blank-nodes">Section 5.1</a> of [<cite><a class="bibref" href="#bib-RDF11-MT">RDF11-MT</a></cite>]. Then the semantic conditions for an RDF<span class="RDFstarExt">*</span> graph are:</p>
 
       <table>
       <caption>Semantic condition for blank nodes.</caption>
         <tbody>
           <tr>
-            <td class="semantictable">If E is an RDF graph then I(E) = true if [I+A](E) =
+            <td class="semantictable">If E is an RDF<span class="RDFstarExt">*</span> graph then I(E) = true if [I+A](E) =
             true for some mapping A from the set of blank nodes in E to IR, otherwise
             I(E)= false.</td>
           </tr>
         </tbody>
       </table>
 
-<h3 aria-level="2" role="heading" id="h3_simpleentailment"><span class="secno">5.2 </span>Simple Entailment</h3>
+<h3 aria-level="2" role="heading" id="h3_simpleentailment"><span class="secno">2.2 </span>Simple Entailment</h3>
 
 <p>Following standard terminology, we say that I (simply) <dfn id="dfn-satisfies">satisfies</dfn> E when I(E)=true, that E is (simply) <dfn id="dfn-satisfiable">satisfiable</dfn> when a simple interpretation exists which satisfies it, otherwise (simply) <dfn id="dfn-unsatisfiable">unsatisfiable</dfn>, and that a graph G simply <dfn id="dfn-entail">entail</dfn><strong>s</strong> a graph E when every interpretation which satisfies G also satisfies E. If two graphs E and F each entail the other then they are logically <dfn id="dfn-equivalent">equivalent</dfn>.</p>
 
 <p>Any process which constructs a graph E from
     some other graph S is (simply) <dfn id="dfn-valid">valid</dfn> if S
     simply entails E in every case, otherwise <dfn id="dfn-invalid.x">invalid.</dfn></p>
+
+
+
+
+
+<h2 id="simple" aria-level="1" role="heading"><span class="secno">3. </span> D-Interpretations, RDF Interpretations, RDFS Interpretations, and the respective Entailments</h2>
+All notions related to datatype entailment, RDF entailment, and RDFS entailment can be defined for RDF* by carrying over the exact same definitions as given in [<cite><a class="bibref" href="#bib-RDF11-MT">RDF11-MT</a></cite>], assuming that any mention of the terms triple, graph, and simple interpretation are meant to refer to the notions defined above.
+
+
 
 
 
