@@ -37,6 +37,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: big ideas](https://github.com/w3c/EasierRDF/labels/Category%3A%20big%20ideas): For major ideas that span multiple issue categories
 <!-- BEGIN_DO_NOT_EDIT! Category: big ideas -->
+* [Issue 68: Idea: Record stronger alternative definitions of ease](https://github.com/w3c/EasierRDF/issues/68)
 * [Issue 34: Idea: Higher-level RDF language](https://github.com/w3c/EasierRDF/issues/34)
 * [Issue 33: Idea: Build powerful query engines](https://github.com/w3c/EasierRDF/issues/33)
 * [Issue 32: Idea: Build JavaScript libraries that work in the browser](https://github.com/w3c/EasierRDF/issues/32)
