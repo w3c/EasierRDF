@@ -125,6 +125,8 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 
 ## [Category: experiments](https://github.com/w3c/EasierRDF/labels/Category%3A%20easier%20profile): For candidate features of an easier profile of RDF
+<!-- BEGIN_DO_NOT_EDIT! Category: experiments -->
+<!-- END_DO_NOT_EDIT! Category: experiments -->
 
 ## Uncategorized
 [Search](https://github.com/w3c/EasierRDF/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+no%3Alabel) for issues with no category label.
