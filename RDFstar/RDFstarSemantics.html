@@ -86,13 +86,11 @@ cite .bibref {
             set of sets of pairs &lt; x, y &gt; with x and y in IR .</p>
       <p>4. A mapping IS from IRIs into (IR union IP)</p>
       <p>5. A partial mapping IL from literals into IR </p>
-      <p class="RDFstarExt">6. A mapping IT from 3-tuples in IR x (IR union IP) x IR into IR.</p>
+      <p class="RDFstarExt">6. A mapping IT from RDF* triples into IR.</p>
      </td>
   </tr>
   </tbody>
 </table>
-
-<p class="todonote"> Is it a problem that the definition of IT allows for recursion and for cycles? <br/> May be it is not because, by definition of the RDF* data model, RDF* triples cannot be recursive or form cycles (see Definition&nbsp;1 in [<cite><a class="bibref" href="#bib-HARTIG17">HARTIG17</a></cite>]).</p>
 
 <p>IEXT(x), called
       the <dfn id="dfn-extension">extension</dfn> of x, is a
@@ -114,7 +112,7 @@ cite .bibref {
     </tr>
 
     <tr>
-      <td class="semantictable"><span class="RDFstarExt">if E is a ground RDF* triple s p o, then I'(E) = IT(t) where t is the 3-tuple ( I'(s), I'(p), I'(o) )</span></td>
+      <td class="semantictable"><span class="RDFstarExt">if E is an RDF* triple, then I'(E) = IT(E)</span></td>
     </tr>
   </tbody>
 </table>
@@ -179,7 +177,7 @@ cite .bibref {
 <h3 id="blank_nodes" aria-level="2" role="heading"><span class="secno">2.1 </span>Blank nodes</h3>
 
 
-<p> Suppose I is a simple interpretation and A is a mapping from a set of blank nodes to the universe IR of I. Define the mapping <span class="RDFstarExt">[I'+A] to be the aforementioned auxiliary function I' on <a href="https://www.w3.org/TR/rdf11-mt/#dfn-name" class="externalDFN">name</a>s and <a href="#dfn-rdf-triple" class="internalDFN">triple</a>s, and A on blank nodes on the set; that is, [I'+A](x)=I'(x) when x is a <a href="https://www.w3.org/TR/rdf11-mt/#dfn-name" class="externalDFN">name</a> or a <a href="#dfn-rdf-triple" class="internalDFN">triple</a>, and [I'+A](x)=A(x) when x is a blank node. Furthermore, define [I+A] to be the extension of I that uses [I'+A] instead of I' in the rules given above for ground graphs.</span> Then the semantic conditions for an RDF<span class="RDFstarExt">*</span> graph are:
+<p> Suppose I is a simple interpretation and A is a mapping from a set of blank nodes to the universe IR of I. Define the mapping <span class="RDFstarExt">[I'+A] to be the aforementioned auxiliary function I' on <a href="https://www.w3.org/TR/rdf11-mt/#dfn-name" class="externalDFN">name</a>s and <a href="#dfn-rdf-triple" class="internalDFN">triple</a>s, and A on blank nodes on the set; that is, [I'+A](x)=I'(x) when x is a <a href="https://www.w3.org/TR/rdf11-mt/#dfn-name" class="externalDFN">name</a> or a <a href="#dfn-rdf-triple" class="internalDFN">triple</a>, and [I'+A](x)=A(x) when x is a blank node. Furthermore, define [I+A] to be the extension of I that covers all triples and graphs (not just ground ones) and that, in the condition for triples as given above for ground graphs, uses [I'+A] instead of I'.</span> Then the semantic conditions for an RDF<span class="RDFstarExt">*</span> graph are:
 </p>
 
       <table>
