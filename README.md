@@ -66,6 +66,7 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 <!-- BEGIN_DO_NOT_EDIT! Category: education -->
 * [Issue 59: Reduce the jargon](https://github.com/w3c/EasierRDF/issues/59)
 * [Issue 58: Confusion between RDF and Linked Data](https://github.com/w3c/EasierRDF/issues/58)
+* [Issue 49: Popular use cases for graph data](https://github.com/w3c/EasierRDF/issues/49)
 * [Issue 41: Idea: Material to be put in an undergraduate DB or WebDev unit](https://github.com/w3c/EasierRDF/issues/41)
 * [Issue 11: Rejection of SQL and OO as Metaphors](https://github.com/w3c/EasierRDF/issues/11)
 * [Issue 10: Lack of a Canonical Example](https://github.com/w3c/EasierRDF/issues/10)
@@ -79,7 +80,6 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 <!-- BEGIN_DO_NOT_EDIT! Category: usage -->
 * [Issue 66: Dereferencing RDF, RDFS & OWL in a browser should return human-friendly versions](https://github.com/w3c/EasierRDF/issues/66)
 * [Issue 65: Do not use anonymous classes](https://github.com/w3c/EasierRDF/issues/65)
-* [Issue 49: Popular use cases for graph data](https://github.com/w3c/EasierRDF/issues/49)
 * [Issue 43: Nobody knows who does what with what](https://github.com/w3c/EasierRDF/issues/43)
 * [Issue 16: Easier-to-use competitors](https://github.com/w3c/EasierRDF/issues/16)
 * [Issue 15: Define an easier profile of RDF](https://github.com/w3c/EasierRDF/issues/15)
@@ -126,10 +126,11 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: experiments](https://github.com/w3c/EasierRDF/labels/Category%3A%20experiments): For demonstrations exploring the design space
 <!-- BEGIN_DO_NOT_EDIT! Category: experiments -->
-* [Issue #71: Chunks and Chunk Rules](https://github.com/w3c/EasierRDF/issues/71)
-* [Issue #70: Graph traversal automata for RDF queries](https://github.com/w3c/EasierRDF/issues/70)
-* [Issue #69: Pattern based queries](https://github.com/w3c/EasierRDF/issues/69)
+* [Issue 71: Chunks and Chunk Rules](https://github.com/w3c/EasierRDF/issues/71)
+* [Issue 70: Graph traversal automata for RDF queries](https://github.com/w3c/EasierRDF/issues/70)
+* [Issue 69: Pattern based queries](https://github.com/w3c/EasierRDF/issues/69)
 <!-- END_DO_NOT_EDIT! Category: experiments -->
 
 ## Uncategorized
 [Search](https://github.com/w3c/EasierRDF/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+no%3Alabel) for issues with no category label.
+
