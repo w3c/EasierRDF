@@ -126,6 +126,9 @@ Issues and ideas are recorded in our [issues list](https://github.com/w3c/Easier
 
 ## [Category: experiments](https://github.com/w3c/EasierRDF/labels/Category%3A%20experiments): For demonstrations exploring the design space
 <!-- BEGIN_DO_NOT_EDIT! Category: experiments -->
+* [Issue #71: Chunks and Chunk Rules](https://github.com/w3c/EasierRDF/issues/71)
+* [Issue #70: Graph traversal automata for RDF queries](https://github.com/w3c/EasierRDF/issues/70)
+* [Issue #69: Pattern based queries](https://github.com/w3c/EasierRDF/issues/69)
 <!-- END_DO_NOT_EDIT! Category: experiments -->
 
 ## Uncategorized
