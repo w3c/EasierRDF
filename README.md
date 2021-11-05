@@ -33,7 +33,7 @@ This work is being performed under the [W3C rdf-dev Community Group](https://www
 
 # Issue topics
 
-Issues and ideas are recorded in our [issues list](https://github.com/w3c/EasierRDF/issues) and divided into the categories below using [issue labels](https://github.com/w3c/EasierRDF/labels).  The lists below are *not* auto-populated, so click on the category name below to see the latest list.
+Issues and ideas are recorded in our [issues list](https://github.com/w3c/EasierRDF/issues) and divided into the categories below using [issue labels](https://github.com/w3c/EasierRDF/labels).  The lists below are *not* auto-populated, so click on the category name below to see the latest list.  A [script is available](https://github.com/w3c/EasierRDF/blob/master/src/GetEasierRdfIssuesByCategory.py) for regenerating this list, but it currently must be run manually.
 
 ## [Category: big ideas](https://github.com/w3c/EasierRDF/labels/Category%3A%20big%20ideas): For major ideas that span multiple issue categories
 <!-- BEGIN_DO_NOT_EDIT! Category: big ideas -->
