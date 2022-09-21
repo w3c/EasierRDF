@@ -6,14 +6,25 @@ that a new RDF user can easily download and use to build a "typical" RDF
 application.  The list is not intended to be exhaustive.  (See [Awesome Semantic Web]() for a broader list.)  Rather it is intended to be a starting point: to include only those tools that would be needed by _most_ RDF applications.
 The hope is to eventually bundle these tools into a single, common download, analogous to Red Hat or Ubuntu.
 
+## Target applications
 Three "typical" RDF applications are targeted:
 
-* an application that integrates data from multiple data sources having different formats and data models, including a relational database and a JSON data source;
-* an application that uses RDF metadata to categorize items in multiple ways, such as products in a catalog; or
-* an application that uses inference rules or OWL reasoning to support smarter queries, such as queries of biomedical data.
+* **Data integration.** The application must integrate data from multiple data sources having different formats and data models, including a relational database and a (plain) JSON data source.  Challenges should include:
+** Data model and vocabulary alignment, using inference rules or some other mechanism.
+** Conversion of relational data to RDF
+** Conversion of plain JSON data -- not already JSON-LD -- to RDF
+** SPARQL queries
+** (What else?)
+* **Catalog metadata.** The application must use RDF metadata to categorize items in multiple ways, such as products in a catalog.  Challenges should include:
+** Use of SKOS for metadata
+** SPARQL queries
+** (What else?)
+* **OWL for smarter queries.** The application must use OWL reasoning or other inference rules to enable smarter queries, such as queries of biomedical data.  Challenges should include:
+** Ontology authoring
+** SPARQL queries
+** (What else?)
 
-*TO DO:* Get specific examples for the above three kinds of application, with example data, and turn them into tutorials based on the below set of tools.   (Can someone
-suggest specific examples of the above "typical" use cases, with sample data?  Or suggest others?)
+**TO DO:** _Get specific examples for the above three kinds of application, with example data, and turn them into tutorials based on the below set of tools.   (Can someone suggest some, complete with example data?  Or suggest others?)_
 
 ## Criteria for inclusion
 A candidate for inclusion in this list:
@@ -55,7 +66,7 @@ Tools in this section are for those using Python to build RDF applications.
 * (list others here ... )
 
 ## Ruby tools
-Tools in this section are for those using Python to build RDF applications.
+Tools in this section are for those using Ruby to build RDF applications.
 
 * [Ruby-RDF](https://github.com/ruby-rdf/linkeddata)
 
