@@ -40,9 +40,9 @@ A candidate for inclusion in this list:
 Tools in this section are not specific to the programming language that is used to build
 your RDF application.
 
-* [BlazeGraph](https://github.com/blazegraph/database) -- High performance graph database 
+* [BlazeGraph](https://github.com/blazegraph/database)? -- Graph database 
 * [Protégé](https://protege.stanford.edu/) -- Ontology editor
-* [SKOS Play](https://skos-play.sparna.fr/play/about) -- Converts a spreadsheet taxonomy to SKOS data
+* [SKOS Play](https://skos-play.sparna.fr/play/about)? -- Converts a spreadsheet taxonomy to SKOS data
 * (What for RDF authoring?)
 * (What for converting from relational data to triples?)
 * (What for converting from JSON data to triples (assuming it is not already JSON-LD)?)
