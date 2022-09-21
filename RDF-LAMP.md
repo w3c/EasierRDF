@@ -12,6 +12,9 @@ Three "typical" RDF applications are targeted:
 * an application that uses RDF metadata to categorize items in multiple ways, such as products in a catalog; or
 * an application that uses inference rules or OWL reasoning to support smarter queries, such as queries of biomedical data.
 
+*TO DO:* Get specific examples for the above three kinds of application, with example data, and turn them into tutorials based on the below set of tools.   (Can someone
+suggest specific examples of the above "typical" use cases, with sample data?  Or suggest others?)
+
 ## Criteria for inclusion
 A candidate for inclusion in this list:
 * must be [OSI-compliant free and open source software (FOSS)](https://opensource.org/), though the software may be maintained by a commercial company and other versions may not be FOSS;
