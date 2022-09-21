@@ -65,6 +65,8 @@ Tools in this section are for those using Python to build RDF applications.
 * [RDFLib](https://pypi.org/project/rdflib/) -- Python library for RDF applications.
 * (list others here ... )
 
+For a curated list of additional tools specifically for Python, see [semantic-python-overview](https://github.com/pysemtec/semantic-python-overview).
+
 ## Ruby tools
 Tools in this section are for those using Ruby to build RDF applications.
 
