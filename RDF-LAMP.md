@@ -27,6 +27,10 @@ your RDF application.
 
 * [BlazeGraph](https://github.com/blazegraph/database) -- High performance graph database 
 * [Protégé](https://protege.stanford.edu/) -- Ontology editor
+* (What for RDF authoring?)
+* (What for converting from relational data to triples?)
+* (What for converting from JSON data to triples (assuming it is not already JSON-LD)?)
+* (What for writing and applying simple inference rules)
 * (list others here ... )
 
 ## Java tools
@@ -46,4 +50,9 @@ Tools in this section are for those using Python to build RDF applications.
 
 * [RDFLib](https://pypi.org/project/rdflib/) -- Python library for RDF applications.
 * (list others here ... )
+
+## Ruby tools
+Tools in this section are for those using Python to build RDF applications.
+
+* [Ruby-RDF](https://github.com/ruby-rdf/linkeddata)
 
