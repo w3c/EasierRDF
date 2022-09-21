@@ -3,8 +3,7 @@
 This page is for curating a list of free and open source tools --
 analogous to the [LAMP stack](https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29) --
 that a new RDF user can easily download and use to build a "typical" RDF
-application.  
-The list is not intended to be exhaustive.  (See [Awesome Semantic Web]() for a broader list.)  Rather it is intended to be a starting point: to include only those tools that would be needed by _most_ RDF applications.
+application.  The list is not intended to be exhaustive.  (See [Awesome Semantic Web]() for a broader list.)  Rather it is intended to be a starting point: to include only those tools that would be needed by _most_ RDF applications.
 The hope is to eventually bundle these tools into a single, common download, analogous to Red Hat or Ubuntu.
 
 Three "typical" RDF applications are targeted:
