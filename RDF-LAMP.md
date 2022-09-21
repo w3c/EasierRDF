@@ -19,7 +19,7 @@ A candidate for inclusion in this list:
 * must be powerful enough to be used for real world applications;
 * must be actively supported and used in the RDF community;
 * should run on Linux, Windows and Mac OS; and
-* should provide the best FOSS choice of tools for what it does, without unnecessarily duplicating functionality that is provided by other tools on this list.
+* should represent the most popular choice of tools for what it does, without unnecessarily duplicating functionality that is provided by other tools on this list.
 
 ## Generic tools
 Tools in this section are not specific to the programming language that is used to build
