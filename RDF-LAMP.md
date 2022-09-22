@@ -2,6 +2,8 @@
 
 This page is for curating a list of free and open source tools -- analogous to the [LAMP stack](https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29) -- that a new RDF user can easily download and use to build a "typical" RDF application.  The list is not intended to be exhaustive.  (See [Awesome Semantic Web](https://github.com/semantalytics/awesome-semantic-web) for a more comprehensive list.)  Rather it is intended to be a starting point: to include only those tools that would be needed by _most_ RDF applications.  The hope is to eventually bundle these tools into a single, common download, analogous to Red Hat or Ubuntu.
 
+_**PRs are invited!**_
+
 ## Target applications
 Three "typical" RDF applications are targeted:
 
@@ -37,13 +39,18 @@ To be considered for inclusion, a candidate tool:
 * should run on Linux, Windows and Mac OS; and
 * should represent the most popular choice of tools for what it does, without unnecessarily duplicating functionality that is provided by other tools on this list.
 
-## Tools
+## Candidate Tools
+
 ### Generic tools
 Tools in this section are not specific to the programming language that is used to build your RDF application.
 
-* [Virtuoso Open Source](https://github.com/openlink/virtuoso-opensource/)? -- Graph database
-* [Protégé](https://protege.stanford.edu/) -- Ontology editor
-* [SKOS Play](https://skos-play.sparna.fr/play/about)? -- Converts a spreadsheet taxonomy to SKOS data
+* RDF database (supporting SPARQL 1.1 and named graphs), one of:
+ * [Virtuoso Open Source](https://github.com/openlink/virtuoso-opensource/)
+ * [RDF4J](https://www.rdf4j.org/)
+ * [Apache Jena](https://jena.apache.org/)
+* [Protégéhthttps://protege.stanford.edu -- Ontology editor
+
+ * [SKOS Play](https://skos-play.sparna.fr/play/about)? -- Converts a spreadsheet taxonomy to SKOS data
 * (What for RDF authoring?)
 * (What for converting from relational data to triples?)
 * (What for converting from JSON data to triples (assuming it is not already JSON-LD)?)
