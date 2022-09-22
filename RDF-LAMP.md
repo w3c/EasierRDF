@@ -33,25 +33,30 @@ One or more of these applications should involve the following challenges:
 ## Criteria for tool inclusion
 To be considered for inclusion, a candidate tool:
 * must be [OSI-compliant free and open source software (FOSS)](https://opensource.org/), though the software may be maintained by a commercial company and it may also be offered under a non-FOSS license;
-* must be necessary to implement at least one of the three "typical" applications listed above;
+* must be necessary (or normally recommended) to implement at least one of the three "typical" applications listed above;
 * must be powerful enough to be used for real world applications (in its FOSS version);
 * must be actively supported and used in the RDF community;
 * should run on Linux, Windows and Mac OS; and
-* should represent the most popular choice of tools for what it does, without unnecessarily duplicating functionality that is provided by other tools on this list.
+* should represent the most popular community choice in its category.
 
 ## Candidate Tools
 
 ### Generic tools
 Tools in this section are not specific to the programming language that is used to build your RDF application.
 
-* RDF database (supporting SPARQL 1.1 and named graphs), one of:
- * [Virtuoso Open Source](https://github.com/openlink/virtuoso-opensource/)
- * [RDF4J](https://www.rdf4j.org/)
- * [Apache Jena](https://jena.apache.org/)
-* [Protégéhthttps://protege.stanford.edu -- Ontology editor
-
- * [SKOS Play](https://skos-play.sparna.fr/play/about)? -- Converts a spreadsheet taxonomy to SKOS data
+* One of:
+  * [Virtuoso Open Source](https://github.com/openlink/virtuoso-opensource/) -- RDF database
+  * [RDF4J](https://www.rdf4j.org/)-- RDF database
+  * [Apache Jena](https://jena.apache.org/)-- RDF database
+* [Protege](https://protege.stanford.edu) -- Ontology editor
+* [SKOS Play](https://skos-play.sparna.fr/play/about)? -- Converts a spreadsheet taxonomy to SKOS data
+* [YASGUI](https://triply.cc/docs/yasgui) -- SPARQL editor 
+* [OpenRefine](https://openrefine.org/) -- Clean data and convert to RDF
+* One of:
+  * [OpenLink Structured Data Sniffer](https://github.com/OpenLinkSoftware/OSDS_extension) -- View RDF in web pages
+  * [RDF Browser](https://addons.mozilla.org/en-US/firefox/addon/rdf-browser/) -- View RDF in web pages
 * (What for RDF authoring?)
+* (What for visualizing RDF data?)
 * (What for converting from relational data to triples?)
 * (What for converting from JSON data to triples (assuming it is not already JSON-LD)?)
 * (What for writing and applying simple inference rules)
