@@ -33,11 +33,13 @@ One or more of these applications should involve the following challenges:
 ## Criteria for tool inclusion
 To be considered for inclusion, a candidate tool:
 * must be [OSI-compliant free and open source software (FOSS)](https://opensource.org/), though the software may be maintained by a commercial company and it may also be offered under a non-FOSS license;
+* must be compliant with W3C standards, especially RDF 1.1, SPARQL 1.1 and JSON-LD 1.1;
 * must be necessary (or normally recommended) to implement at least one of the three "typical" applications listed above;
 * must be powerful enough to be used for real world applications (in its FOSS version);
 * must be actively supported and used in the RDF community;
 * should run on Linux, Windows and Mac OS; and
 * should represent the easiest and most popular community choice in its category.
+* should represent the easiest within its tool category, to get started and use (i.e., usability, documentation, active community forum, stability, etc.)
 
 ## Candidate Tools
 
