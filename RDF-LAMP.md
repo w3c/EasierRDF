@@ -52,6 +52,7 @@ Tools in this section are not specific to the programming language that is used 
   * [Apache Jena](https://jena.apache.org/)-- RDF database
   * [Oxigraph](https://github.com/oxigraph/oxigraph)-- RDF database
 * [Protege](https://protege.stanford.edu) -- Ontology editor
+* [rapper -- Raptor RDF parsing and serializing utility](https://librdf.org/raptor/rapper.html) Validates and converts different RDF serialization formats
 * [SKOS Play](https://skos-play.sparna.fr/play/about)? -- Converts a spreadsheet taxonomy to SKOS data
 * [YASGUI](https://triply.cc/docs/yasgui) -- SPARQL editor 
 * [OpenRefine](https://openrefine.org/) -- Clean data and convert to RDF
