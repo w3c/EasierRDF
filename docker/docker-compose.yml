@@ -1,0 +1,35 @@
+services:
+
+  virtuoso:
+    image: openlink/virtuoso-opensource-7
+    environment:
+      - DBA_PASSWORD=${DBA_PASSWORD}
+      - VIRT_DATABASE_ERRORLOGLEVEL=3
+      - VIRT_SPARQL_DEFAULTGRAPH=http://example.org
+      - VIRT_SPARQL_DEFAULTQUERY=select distinct * {?s ?p ?o.} LIMIT 100
+      - VIRT_PARAMETERS_DIRSALLOWED=., /usr/local/virtuoso-opensource/share/virtuoso/vad, /rdf
+      - VIRT_PLUGINS_-=-
+    volumes:
+      - ./rdf:/rdf:ro
+      - ./initdb.d:/opt/virtuoso-opensource/initdb.d:ro
+    ports:
+      - "127.0.0.1:8890:8890"
+    restart: unless-stopped
+
+  rickview:
+    image: ghcr.io/konradhoeffner/rickview:master
+    environment:
+      - RICKVIEW_KB_FILE=/rdf/example.ttl
+      - RICKVIEW_TITLE=Example Title
+      - RICKVIEW_SUBTITLE=Example Subtitle
+      - RICKVIEW_PREFIX=ex
+      - RICKVIEW_NAMESPACE=http://example.org/
+      - RICKVIEW_EXAMPLES=ExClass ExProperty ExInstance
+    volumes:
+      - ./rdf:/rdf:ro
+    ports:
+      - "127.0.0.1:8080:8080"
+    restart: unless-stopped
+
+volumes:
+  rdf:
