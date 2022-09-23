@@ -41,9 +41,7 @@ To be considered for inclusion, a candidate tool or library:
 * should represent the easiest and most popular community choice in its category.
 * should represent the easiest within its tool category, to get started and use (i.e., usability, documentation, active community forum, stability, etc.)
 
-## Candidate Tools and Libraries
-
-### Generic tools
+## Candidate Tools
 Tools in this section are not specific to the programming language that is used to build your RDF application.
 
 * One of:
@@ -67,20 +65,20 @@ Tools in this section are not specific to the programming language that is used 
 * (What for writing and applying simple inference rules)
 * (list others here ... )
 
+## Candidate libraries
+The programming language you use to build your RDF application will determine which libraries are applicable to you.
+
 ### Java libraries
-Libraries in this section are for those using Java to build RDF applications.
 
 * [Apache Jena](https://jena.apache.org/download/index.cgi) -- Java framework and library for building RDF applications
 * (list others here ... )
 
 ### JavaScript libraries
-Libraries in this section are for those using JavaScript to build RDF applications.
 
 * [RDF JS](https://rdf.js.org/) -- JavaScript library for building RDF applications.
 * (list others here ... )
 
 ### Python libraries
-Libraries in this section are for those using Python to build RDF applications.
 
 * [RDFLib](https://pypi.org/project/rdflib/) -- Python library for RDF applications.
 * (list others here ... )
@@ -88,12 +86,10 @@ Libraries in this section are for those using Python to build RDF applications.
 For a curated list of additional projects specifically for Python, see [semantic-python-overview](https://github.com/pysemtec/semantic-python-overview).
 
 ### Ruby libraries
-Libraries in this section are for those using Ruby to build RDF applications.
 
 * [Ruby-RDF](https://github.com/ruby-rdf/linkeddata)
 
 ### Rust libraries
-Libraries in this section are for those using Rust to build RDF applications.
 
 * [Sophia](https://github.com/pchampin/sophia_rs) -- "Linked Data and Semantic Web toolkit", provides in-memory graphs for efficient triple pattern queries.
 * [Oxigraph](https://github.com/oxigraph/oxigraph)-- On-disk graph database library.
