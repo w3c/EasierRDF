@@ -1,4 +1,4 @@
-Simple template for a Docker Compose setup with a SPARQL Endpoint and RDF browser for a small knowledge base.
+Simple template for a Docker Compose setup based on [Virtuoso](https://github.com/openlink/virtuoso-opensource/), providing an RDF store, SPARQL Endpoint, and RDF browser (among other available features) for a quick knowledge base deployment.
 
 # Localize
 
