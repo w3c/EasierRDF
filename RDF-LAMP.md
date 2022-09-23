@@ -69,19 +69,19 @@ Tools in this section are not specific to the programming language that is used 
 * (list others here ... )
 
 ### Java libraries
-Tools in this section are for those using Java to build RDF applications.
+Libraries in this section are for those using Java to build RDF applications.
 
 * [Apache Jena](https://jena.apache.org/download/index.cgi) -- Java framework and library for building RDF applications
 * (list others here ... )
 
 ### JavaScript libraries
-Tools in this section are for those using JavaScript to build RDF applications.
+Libraries in this section are for those using JavaScript to build RDF applications.
 
 * [RDF JS](https://rdf.js.org/) -- JavaScript library for building RDF applications.
 * (list others here ... )
 
 ### Python libraries
-Tools in this section are for those using Python to build RDF applications.
+Libraries in this section are for those using Python to build RDF applications.
 
 * [RDFLib](https://pypi.org/project/rdflib/) -- Python library for RDF applications.
 * (list others here ... )
