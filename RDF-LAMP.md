@@ -60,7 +60,9 @@ Tools in this section are not specific to the programming language that is used 
   * [RDF Browser](https://addons.mozilla.org/en-US/firefox/addon/rdf-browser/) -- View RDF in web pages
 * (What for RDF authoring?)
 * (What for visualizing RDF data?)
-* (What for converting from relational data to triples?)
+* One of:
+  * [Tarql](http://tarql.github.io/) -- convert CSV files to RDF
+  * [R2RML Parser](https://github.com/nkons/r2rml-parser) -- export relational database contents as RDF
 * (What for converting from JSON data to triples (assuming it is not already JSON-LD)?)
 * (What for writing and applying simple inference rules)
 * (list others here ... )
