@@ -52,6 +52,7 @@ Tools in this section are not specific to the programming language that is used 
   * [Apache Jena](https://jena.apache.org/)-- RDF database
   * [Oxigraph](https://github.com/oxigraph/oxigraph)-- RDF database
 * [Protege](https://protege.stanford.edu) -- Ontology editor
+* [pySHACL](https://github.com/RDFLib/pySHACL/) -- Validate RDF against SHACL shapes
 * [rapper -- Raptor RDF parsing and serializing utility](https://librdf.org/raptor/rapper.html) -- Validates and converts different RDF serialization formats
 * [SKOS Play](https://skos-play.sparna.fr/play/about)? -- Converts a spreadsheet taxonomy to SKOS data
 * [YASGUI](https://triply.cc/docs/yasgui) -- SPARQL editor 
@@ -61,9 +62,7 @@ Tools in this section are not specific to the programming language that is used 
   * [RDF Browser](https://addons.mozilla.org/en-US/firefox/addon/rdf-browser/) -- View RDF in web pages
 * (What for RDF authoring?)
 * (What for visualizing RDF data?)
-* One of:
-  * [Tarql](http://tarql.github.io/) -- convert CSV files to RDF
-  * [R2RML Parser](https://github.com/nkons/r2rml-parser) -- export relational database contents as RDF
+* (What for converting from relational data to triples?)
 * (What for converting from JSON data to triples (assuming it is not already JSON-LD)?)
 * (What for writing and applying simple inference rules)
 * (list others here ... )
