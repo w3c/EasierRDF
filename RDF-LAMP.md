@@ -93,8 +93,8 @@ Tools in this section are for those using Ruby to build RDF applications.
 
 * [Ruby-RDF](https://github.com/ruby-rdf/linkeddata)
 
-### Rust tools
-Tools in this section are for those using Rust to build RDF applications.
+### Rust libraries
+Libraries in this section are for those using Rust to build RDF applications.
 
 * [Sophia](https://github.com/pchampin/sophia_rs) -- "Linked Data and Semantic Web toolkit", provides in-memory graphs for efficient triple pattern queries.
 * [Oxigraph](https://github.com/oxigraph/oxigraph)-- On-disk graph database library.
