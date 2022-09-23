@@ -92,3 +92,11 @@ For a curated list of additional projects specifically for Python, see [semantic
 Libraries in this section are for those using Ruby to build RDF applications.
 
 * [Ruby-RDF](https://github.com/ruby-rdf/linkeddata)
+
+### Rust libraries
+Libraries in this section are for those using Rust to build RDF applications.
+
+* [Sophia](https://github.com/pchampin/sophia_rs) -- "Linked Data and Semantic Web toolkit", provides in-memory graphs for efficient triple pattern queries.
+* [Oxigraph](https://github.com/oxigraph/oxigraph)-- On-disk graph database library.
+* [Rio](https://crates.io/crates/rio_turtle/0.6.2) --  Low level Turtle, Trig, N-Triples and N-Quads parsers and serializers.
+
