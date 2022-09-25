@@ -16,20 +16,14 @@ services:
       - "127.0.0.1:8890:8890"
     restart: unless-stopped
 
-  rickview:
-    image: ghcr.io/konradhoeffner/rickview:master
+  lodview:
+    image: ghcr.io/konradhoeffner/lodview:22.05
     environment:
-      - RICKVIEW_KB_FILE=/rdf/example.ttl
-      - RICKVIEW_TITLE=Example Title
-      - RICKVIEW_SUBTITLE=Example Subtitle
-      - RICKVIEW_PREFIX=ex
-      - RICKVIEW_NAMESPACE=http://example.org/
-      - RICKVIEW_EXAMPLES=ExClass ExProperty ExInstance
-    volumes:
-      - ./rdf:/rdf:ro
+      - LodViewendpoint=http://virtuoso:8890/sparql
+      - LodViewIRInamespace=http://example.org/
+      - LodViewhomeUrl=/ExInstance
     ports:
       - "127.0.0.1:8080:8080"
+    depends_on:
+      - virtuoso
     restart: unless-stopped
-
-volumes:
-  rdf:

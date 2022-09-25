@@ -11,4 +11,4 @@ Simple template for a Docker Compose setup based on [Virtuoso](https://github.co
 
 1. Run `docker compose up --build`
 2. Test the SPARQL endpoint at [`http://localhost:8890/sparql`](http://localhost:8890/sparql)
-2. Test the RDF browser at [`http://localhost:8080/`](http://localhost:8080/)
+2. Test the RDF browser at [`http://localhost:8080/ExInstance`](http://localhost:8080/ExInstance)
