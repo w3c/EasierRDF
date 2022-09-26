@@ -1,0 +1,20 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX  owl: <http://www.w3.org/2002/07/owl#>
+PREFIX   ex: <http://example.org/>
+
+ex:ExClass
+  a             owl:Class ;
+  rdfs:comment  "an example class"@en ;
+  rdfs:label    "example class"@en .
+
+ex:ExInstance
+  a             ex:ExClass ;
+  ex:exProperty 5 ;
+  rdfs:comment  "an example instance."@en ;
+  rdfs:label    "example instance"@en .
+
+ex:exProperty
+  a             owl:DatatypeProperty ;
+  rdfs:domain   ex:ExClass ;
+  rdfs:label    "Beispielproperty"@de ,
+                "example property"@en .

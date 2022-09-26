@@ -1,0 +1,29 @@
+services:
+
+  virtuoso:
+    image: openlink/virtuoso-opensource-7
+    environment:
+      - DBA_PASSWORD=${DBA_PASSWORD}
+      - VIRT_DATABASE_ERRORLOGLEVEL=3
+      - VIRT_SPARQL_DEFAULTGRAPH=http://example.org
+      - VIRT_SPARQL_DEFAULTQUERY=select distinct * {?s ?p ?o.} LIMIT 100
+      - VIRT_PARAMETERS_DIRSALLOWED=., /usr/local/virtuoso-opensource/share/virtuoso/vad, /rdf
+      - VIRT_PLUGINS_-=-
+    volumes:
+      - ./rdf:/rdf:ro
+      - ./initdb.d:/opt/virtuoso-opensource/initdb.d:ro
+    ports:
+      - "127.0.0.1:8890:8890"
+    restart: unless-stopped
+
+  lodview:
+    image: ghcr.io/konradhoeffner/lodview:22.05
+    environment:
+      - LodViewendpoint=http://virtuoso:8890/sparql
+      - LodViewIRInamespace=http://example.org/
+      - LodViewhomeUrl=/ExInstance
+    ports:
+      - "127.0.0.1:8080:8080"
+    depends_on:
+      - virtuoso
+    restart: unless-stopped
