@@ -60,6 +60,7 @@ Tools in this section are not specific to the programming language that is used 
 * One of:
   * [OpenLink Structured Data Sniffer](https://github.com/OpenLinkSoftware/OSDS_extension) -- View RDF in web pages
   * [RDF Browser](https://addons.mozilla.org/en-US/firefox/addon/rdf-browser/) -- View RDF in web pages
+* (What for writing and applying custom inference rules?)
 * (What for RDF authoring?)
 * (What for visualizing RDF data?)
 * (What for converting from relational data to triples?)
